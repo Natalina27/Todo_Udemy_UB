@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/App/App.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoListItem/TodoListItem.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584037943688</updated>
       <workItem from="1584037944821" duration="930000" />
-      <workItem from="1584095067196" duration="12363000" />
+      <workItem from="1584095067196" duration="13958000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1584038598185</created>
@@ -154,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584118426041</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Styles by module">
+      <created>1584125668815</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584125668815</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +188,7 @@
     <MESSAGE value="Props" />
     <MESSAGE value="Arrays like props of components" />
     <MESSAGE value="Collections and keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections and keys" />
+    <MESSAGE value="Styles by module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styles by module" />
   </component>
 </project>

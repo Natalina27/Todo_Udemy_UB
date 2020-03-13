@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoListItem from "../TodoListItem/TodoListItem";
+import TodoItem from "../TodoItem/TodoItem";
 
 const TodoList = ({todos}) => {
 
@@ -7,7 +7,7 @@ const TodoList = ({todos}) => {
 
         const {id, ...itemProps} = item; //destructurization
 
-        return <li key={item.id}><TodoListItem {...itemProps}/></li>;
+        return <li key={item.id}><TodoItem {...itemProps}/></li>;
     });
 
     return(

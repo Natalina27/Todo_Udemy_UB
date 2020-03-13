@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/App/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -27,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584037943688</updated>
       <workItem from="1584037944821" duration="930000" />
-      <workItem from="1584095067196" duration="10504000" />
+      <workItem from="1584095067196" duration="12363000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1584038598185</created>
@@ -141,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584116412664</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Collections and keys">
+      <created>1584118426041</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584118426041</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +182,7 @@
     <MESSAGE value="Project Structure part1" />
     <MESSAGE value="Props" />
     <MESSAGE value="Arrays like props of components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays like props of components" />
+    <MESSAGE value="Collections and keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections and keys" />
   </component>
 </project>

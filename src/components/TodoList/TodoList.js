@@ -6,7 +6,7 @@ const TodoList = () => {
     return(
         <ul>
             <li><TodoListItem  label='Drink coffee'/></li>
-            <li><TodoListItem label='Prepare risotto' /></li>
+            <li><TodoListItem label='Prepare risotto' important /></li>
         </ul>
     );
 };

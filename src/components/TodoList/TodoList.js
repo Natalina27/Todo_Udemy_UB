@@ -1,5 +1,6 @@
 import React from 'react';
 import TodoItem from "../TodoItem/TodoItem";
+import styles from './TodoList.module.css'
 
 const TodoList = ({todos}) => {
 
@@ -11,9 +12,10 @@ const TodoList = ({todos}) => {
     });
 
     return(
-        <ul>
+        <ul className={styles.list}>
             {elements}
         </ul>
+
     );
 };
 export default TodoList;

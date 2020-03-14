@@ -3,6 +3,8 @@ import AppHeader from "../AppHeader/AppHeader";
 import SearchPanel from "../SearchPanel/SearchPanel";
 import TodoList from "../TodoList/TodoList";
 import styles from './App.module.css'
+import Container from '@material-ui/core/Container';
+
 
 const App = () => {
     const todoData = [
@@ -12,11 +14,13 @@ const App = () => {
     ];
 
     return(
+        <Container maxWidth='sm' >
         <div className={styles.wrap}>
             <AppHeader />
             <SearchPanel/>
             <TodoList todos={todoData}/>
         </div>
+        </Container>
     );
 };
 

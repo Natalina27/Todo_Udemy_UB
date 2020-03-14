@@ -1,6 +1,16 @@
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+}
 .item{
     color: black;
 }
 .important{
     color: red;
+}
+.label{
+    font-size: 40px;
+}
+.text{
+    text-align: center;
 }

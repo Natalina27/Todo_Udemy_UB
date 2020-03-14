@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeader/AppHeader.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
       <updated>1584037943688</updated>
       <workItem from="1584037944821" duration="930000" />
       <workItem from="1584095067196" duration="27990000" />
-      <workItem from="1584210926790" duration="251000" />
+      <workItem from="1584210926790" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1584038598185</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584210885544</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Project structure part2">
+      <created>1584211205510</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1584211205510</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +274,7 @@
     <MESSAGE value="Styles by Material UI (Google library)" />
     <MESSAGE value="deploy" />
     <MESSAGE value="styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="styles" />
+    <MESSAGE value="Project structure part2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project structure part2" />
   </component>
 </project>

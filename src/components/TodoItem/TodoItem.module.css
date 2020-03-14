@@ -14,3 +14,8 @@
 .text{
     text-align: center;
 }
+.button {
+    background: lavenderblush;
+    border: red  1px wave;
+
+}

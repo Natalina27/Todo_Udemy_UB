@@ -5,15 +5,16 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import styles from './SearchPanel.module.css';
 
 const SearchPanel = () => {
-    // const searchText = 'Type here to search';
-    // const searchStyle = {fontSize: '20px'};
     return(
         <div className={styles.search}>
         <TextField
             id="standard-search"
             label="Search"
             type="search"
+            aria-label="search"
             className={styles.searchField}
+            inputProps={{ 'aria-label': 'search google maps' }}
+
         />
 
             <ButtonGroup

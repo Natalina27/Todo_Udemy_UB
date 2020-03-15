@@ -10,18 +10,26 @@ import Button from '@material-ui/core/Button';
 
 class TodoItem extends React.Component{
     state ={
-        done: false
+        done: false,
+        important: false
     };
-    onLabelClick = () => {
+    onCheckboxClick = () => {
         this.setState({
             done: true
         })
     };
 
+    onImportantClick = () => {
+        this.setState({
+            important: true
+        })
+    };
+
     render(){
 
-        const {label, important = false} = this.props;
-        const {done} = this.state;
+        const {label} = this.props;
+        const {done, important} = this.state;
+
         let classNames = classnames ({
             [styles.item]:true,
              [styles.important]:important,
@@ -34,10 +42,11 @@ class TodoItem extends React.Component{
                 <Checkbox
                     icon={<FavoriteBorder />}
                     checkedIcon={<Favorite />}
-                    value="checked" />
+                    value="checked"
+                    onClick={this.onCheckboxClick}
+                />
                 <span
                     className={classNames }
-                    onClick={this.onLabelClick}
                 >
                 {label}
                 </span>
@@ -47,7 +56,11 @@ class TodoItem extends React.Component{
                         <DeleteIcon fontSize="large" />
                     </IconButton>
                     <div className={styles.button}>
-                        <Button color="secondary" href="#"   >!</Button>
+                        <Button
+                            color="secondary"
+                            href="#"
+                            onClick={this.onImportantClick}
+                        >!</Button>
                     </div>
                 </div>
             </div>

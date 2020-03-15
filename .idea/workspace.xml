@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +80,7 @@
       <workItem from="1584037944821" duration="930000" />
       <workItem from="1584095067196" duration="27990000" />
       <workItem from="1584210926790" duration="963000" />
-      <workItem from="1584261503651" duration="3754000" />
+      <workItem from="1584261503651" duration="4590000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1584038598185</created>
@@ -253,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584211847859</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Component Class, Event Handling, state">
+      <created>1584276494582</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1584276494582</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +292,7 @@
     <MESSAGE value="deploy" />
     <MESSAGE value="styles" />
     <MESSAGE value="Project structure part2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project structure part2" />
+    <MESSAGE value="Component Class, Event Handling, state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Component Class, Event Handling, state" />
   </component>
 </project>

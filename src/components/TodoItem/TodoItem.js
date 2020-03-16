@@ -14,15 +14,19 @@ class TodoItem extends React.Component{
         important: false
     };
     onCheckboxClick = () => {
-        this.setState({
-            done: true
-        })
+        this.setState(({done}) =>{
+            return{
+                done: !done
+            };
+        });
     };
 
     onImportantClick = () => {
-        this.setState({
-            important: true
-        })
+        this.setState(({important}) => {
+            return {
+                important: !important
+            };
+        });
     };
 
     render(){

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="setState">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.js" afterDir="false" />
-    </list>
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,7 @@
       <workItem from="1584095067196" duration="27990000" />
       <workItem from="1584210926790" duration="963000" />
       <workItem from="1584261503651" duration="5271000" />
-      <workItem from="1584354112783" duration="1226000" />
+      <workItem from="1584354112783" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1584038598185</created>
@@ -271,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584284894792</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="state update dependent on previous state &#10;checkbox click and important click">
+      <created>1584355754432</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1584355754432</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +312,7 @@
     <MESSAGE value="Project structure part2" />
     <MESSAGE value="Component Class, Event Handling, state" />
     <MESSAGE value="setState" />
-    <option name="LAST_COMMIT_MESSAGE" value="setState" />
+    <MESSAGE value="state update dependent on previous state &#10;checkbox click and important click" />
+    <option name="LAST_COMMIT_MESSAGE" value="state update dependent on previous state &#10;checkbox click and important click" />
   </component>
 </project>

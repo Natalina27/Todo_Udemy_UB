@@ -31,7 +31,7 @@ class TodoItem extends React.Component{
 
     render(){
 
-        const {label} = this.props;
+        const {label, onDeleted} = this.props;
         const {done, important} = this.state;
 
         let classNames = classnames ({
@@ -56,8 +56,13 @@ class TodoItem extends React.Component{
                 </span>
 
                 <div>
-                    <IconButton aria-label="delete" href="#">
-                        <DeleteIcon fontSize="large" />
+                    <IconButton
+                        aria-label="delete"
+                        href="#"
+                        onClick={onDeleted}
+                    >
+                        <DeleteIcon
+                            fontSize="large"/>
                     </IconButton>
                     <div className={styles.button}>
                         <Button

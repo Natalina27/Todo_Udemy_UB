@@ -21,7 +21,11 @@ const App = () => {
         <div className={styles.wrap}>
             <AppHeader />
             <SearchPanel/>
-            <TodoList todos={todoData}/>
+            <TodoList
+                todos={todoData}
+                onDeleted={(id)=>console.log('del', id)
+                }
+            />
             <InputTask/>
             <Footer count={count}/>
         </div>

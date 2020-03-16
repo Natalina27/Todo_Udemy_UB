@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,8 @@
       <workItem from="1584095067196" duration="27990000" />
       <workItem from="1584210926790" duration="963000" />
       <workItem from="1584261503651" duration="5271000" />
-      <workItem from="1584354112783" duration="1944000" />
+      <workItem from="1584354112783" duration="2034000" />
+      <workItem from="1584372947619" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1584038598185</created>
@@ -275,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584355754432</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="own events">
+      <created>1584368591036</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1584368591036</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +323,7 @@
     <MESSAGE value="Component Class, Event Handling, state" />
     <MESSAGE value="setState" />
     <MESSAGE value="state update dependent on previous state &#10;checkbox click and important click" />
-    <option name="LAST_COMMIT_MESSAGE" value="state update dependent on previous state &#10;checkbox click and important click" />
+    <MESSAGE value="own events" />
+    <option name="LAST_COMMIT_MESSAGE" value="own events" />
   </component>
 </project>

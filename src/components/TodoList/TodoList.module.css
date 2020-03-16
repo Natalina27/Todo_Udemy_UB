@@ -8,6 +8,6 @@ li div{
 ul{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     height:200px;
 }

@@ -4,8 +4,7 @@
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +83,7 @@
       <workItem from="1584261503651" duration="5271000" />
       <workItem from="1584354112783" duration="2034000" />
       <workItem from="1584372947619" duration="665000" />
-      <workItem from="1584390727637" duration="1964000" />
+      <workItem from="1584390727637" duration="4056000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1584038598185</created>
@@ -303,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584390734004</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary=" own events - onDeleted by clicking on trash button">
+      <created>1584394874932</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1584394874932</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +348,7 @@
     <MESSAGE value="setState" />
     <MESSAGE value="state update dependent on previous state &#10;checkbox click and important click" />
     <MESSAGE value="own events" />
-    <option name="LAST_COMMIT_MESSAGE" value="own events" />
+    <MESSAGE value=" own events - onDeleted by clicking on trash button" />
+    <option name="LAST_COMMIT_MESSAGE" value=" own events - onDeleted by clicking on trash button" />
   </component>
 </project>

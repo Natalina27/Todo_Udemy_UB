@@ -9,6 +9,7 @@ import Footer from "../Footer/Footer";
 
 
 class App extends Component {
+    maxId = 100;
     state = {
         todoData: [
             {label: 'Drink coffee', important: false, id: 1},
@@ -34,6 +35,27 @@ class App extends Component {
             }
             )};
 
+    addItem = (text)=> {
+        const newItem = {
+            label: text,
+            important: false,
+            id: this.maxId++
+        };
+
+        this.setState(({todoData}) => {
+            const newArr = [
+                ...todoData,
+                newItem
+            ];
+
+            return {
+                todoData: newArr
+            };
+        });
+
+
+    };
+
     render() {
 
         return (
@@ -46,12 +68,12 @@ class App extends Component {
                         onDeleted={this.deleteItem}
 
                     />
-                    <InputTask/>
+                    <InputTask onAdded={this.addItem}/>
                     <Footer count={this.state.count}/>
                 </div>
             </Container>
         );
-    };
+    }
 }
 
 export default App;

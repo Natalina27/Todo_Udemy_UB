@@ -16,7 +16,8 @@ class App extends Component {
             {label: 'Build app', important: true, id: 2},
             {label: 'Have a lunch', important: false, id: 3}
         ],
-        count: 3
+        toDo: 3,
+        done: 0
     };
 
     deleteItem = (id) => {
@@ -56,6 +57,9 @@ class App extends Component {
 
     };
 
+    onToggleDone = (id) => {console.log('Toggle Done', id)};
+    onToggleImportant = (id) => {console.log('Toggle Important', id)};
+
     render() {
 
         return (
@@ -66,10 +70,11 @@ class App extends Component {
                     <TodoList
                         todos={this.state.todoData}
                         onDeleted={this.deleteItem}
-
+                        onToggleDone={this.onToggleDone}
+                        onToggleImportant={this.onToggleImportant}
                     />
                     <InputTask onAdded={this.addItem}/>
-                    <Footer count={this.state.count}/>
+                    <Footer toDo={this.state.toDo} done={this.state.done}/>
                 </div>
             </Container>
         );

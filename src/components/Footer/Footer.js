@@ -1,11 +1,11 @@
 import React from "react";
 import styles from './Footer.module.css';
 
-const Footer = (props) =>{
+const Footer = ({done,toDo}) =>{
     return(
         <div className={styles.footer}>
-            <span>We need to do : {props.count}</span>
-            <span>Done: {props.count}</span>
+            <span>We need to do : {toDo}</span>
+            <span>Done: {done}</span>
         </div>
     )
 };

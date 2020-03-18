@@ -8,35 +8,13 @@ import IconButton from '@material-ui/core/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete';
 import Button from '@material-ui/core/Button';
 
-class TodoItem extends React.Component{
-    // state ={
-    //     done: false,
-    //     important: false
-    // };
-    // onCheckboxClick = () => {
-    //     this.setState(({done}) =>{
-    //         return{
-    //             done: !done
-    //         };
-    //     });
-    // };
-    //
-    // onImportantClick = () => {
-    //     this.setState(({important}) => {
-    //         return {
-    //             important: !important
-    //         };
-    //     });
-    // };
+const TodoItem =({label,
+                 onDeleted,
+                 onToggleDone,
+                 onToggleImportant,
+                 done,
+                 important}) => {
 
-    render(){
-
-        const {label,
-            onDeleted,
-            onToggleDone,
-            onToggleImportant,
-            done,
-            important} = this.props;
 
 
         let classNames = classnames ({
@@ -46,13 +24,13 @@ class TodoItem extends React.Component{
             [styles.text]: true,
             [styles.done]: done
         });
+
         return (
             <div>
                 <Checkbox
                     icon={<FavoriteBorder />}
                     checkedIcon={<Favorite />}
                     value="checked"
-                    //onClick={this.onCheckboxClick}
                     onClick={onToggleDone}
 
                 />
@@ -75,7 +53,6 @@ class TodoItem extends React.Component{
                         <Button
                             color="secondary"
                             href="#"
-                            //onClick={this.onImportantClick}
                             onClick={onToggleImportant}
 
                         >!</Button>
@@ -84,8 +61,7 @@ class TodoItem extends React.Component{
             </div>
 
         )
-    }
-}
+    };
 
 
 export default TodoItem;

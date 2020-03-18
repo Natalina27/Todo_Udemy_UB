@@ -12,12 +12,21 @@ class App extends Component {
     maxId = 100;
     state = {
         todoData: [
-            {label: 'Drink coffee', important: false, id: 1},
-            {label: 'Build app', important: true, id: 2},
-            {label: 'Have a lunch', important: false, id: 3}
-        ],
-        toDo: 3,
-        done: 0
+            this.createTodoItem('Drink coffee'),
+            this.createTodoItem('Build app'),
+            this.createTodoItem('Have a lunch'),
+            ]
+    };
+
+    createTodoItem (label){
+        return{
+            label,
+            important: false,
+            id: this.maxId++,
+            done: false,
+            toDo: 3
+        };
+
     };
 
     deleteItem = (id) => {
@@ -35,13 +44,8 @@ class App extends Component {
                 };
             }
             )};
-
     addItem = (text)=> {
-        const newItem = {
-            label: text,
-            important: false,
-            id: this.maxId++
-        };
+        const newItem = this.createTodoItem(text);
 
         this.setState(({todoData}) => {
             const newArr = [
@@ -57,28 +61,63 @@ class App extends Component {
 
     };
 
-    onToggleDone = (id) => {console.log('Toggle Done', id)};
-    onToggleImportant = (id) => {console.log('Toggle Important', id)};
 
-    render() {
+    toggleProperty(arr, id, propName){
+        const indx = arr.findIndex((el) => el.id === id);
+        //1.update object
+        const oldItem = arr[indx];
+        const newItem = {...oldItem,  [propName]: !oldItem[propName] };
 
-        return (
-            <Container maxWidth='sm'>
-                <div className={styles.wrap}>
-                    <AppHeader/>
-                    <SearchPanel/>
-                    <TodoList
-                        todos={this.state.todoData}
-                        onDeleted={this.deleteItem}
-                        onToggleDone={this.onToggleDone}
-                        onToggleImportant={this.onToggleImportant}
-                    />
-                    <InputTask onAdded={this.addItem}/>
-                    <Footer toDo={this.state.toDo} done={this.state.done}/>
-                </div>
-            </Container>
-        );
+        //2. construct new array
+        return [
+            ...arr.slice(0,indx),
+            newItem,
+            ...arr.slice(indx+1)
+        ];
+
     }
+    onToggleDone = (id) => {
+        this.setState(({todoData}) =>{
+
+            return {
+                todoData:  this.toggleProperty(todoData, id, 'done')
+            }
+
+                });
+    };
+    onToggleImportant = (id) => {
+        this.setState(({todoData}) =>{
+
+            return {
+                todoData: this.toggleProperty(todoData, id, 'important')
+            }
+
+        });
+
+    };
+
+        render() {
+            const {todoData} = this.state;
+            const doneCount = todoData.filter((el) => el.done).length;
+            const todoCount = todoData.length - doneCount;
+                return (
+                    <Container maxWidth='sm'>
+                        <div className={styles.wrap}>
+                            <AppHeader/>
+                            <SearchPanel/>
+                            <TodoList
+                                todos={todoData}
+                                onDeleted={this.deleteItem}
+                                onToggleDone={this.onToggleDone}
+                                onToggleImportant={this.onToggleImportant}
+                            />
+                            <InputTask onAdded={this.addItem}/>
+                            <Footer toDo={todoCount} done={doneCount}/>
+                        </div>
+                    </Container>
+                );
+        }
 }
+
 
 export default App;

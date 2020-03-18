@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputTask/InputTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputTask/InputTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputTask/InputTask.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputTask/InputTask.module.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +87,8 @@
       <workItem from="1584390727637" duration="4455000" />
       <workItem from="1584400330663" duration="335000" />
       <workItem from="1584440170279" duration="6692000" />
-      <workItem from="1584494680171" duration="8501000" />
+      <workItem from="1584494680171" duration="8517000" />
+      <workItem from="1584571306840" duration="3008000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1584038598185</created>
@@ -350,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584531746846</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Editing elements : createTodoItem(), toggleProperty(), edited state">
+      <created>1584540687462</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1584540687463</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,5 +408,17 @@
     <MESSAGE value="Data in React app : onToggleDone(id), onToggleImportant(id)" />
     <MESSAGE value="Editing elements : createTodoItem(), toggleProperty(), edited state" />
     <option name="LAST_COMMIT_MESSAGE" value="Editing elements : createTodoItem(), toggleProperty(), edited state" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/App/App.js</url>
+          <line>86</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

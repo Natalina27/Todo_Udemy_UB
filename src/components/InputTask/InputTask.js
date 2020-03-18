@@ -5,28 +5,47 @@ import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
 
 class InputTask extends React.Component{
-    render() {
-         const {onAdded} = this.props;
 
+    state = {
+        label: ''
+    };
+
+    onLabelChange = (event) =>{
+        this.setState(
+            {
+                label: event.target.value
+            });
+    };
+
+    onSubmit =(event) => {
+        event.preventDefault();
+        this.props.onAdded(this.state.label);
+    };
+
+
+    render() {
         return (
-            <div className={styles.newTask}>
+            <form className={styles.newTask}
+                 onSubmit={this.onSubmit}>
+
                 <TextField
                     id="outlined-basic"
                     label="ADD NEW TASK HERE"
                     variant="outlined"
                     color="secondary"
-                    fullWidth={true}
+                    className={styles.input}
+                     onChange={this.onLabelChange}
                 />
                 <Fab
                     color="secondary"
                     aria-label="add"
                     href="#"
-                     onClick={() => onAdded('new task')}
+                   onClick={this.onSubmit}
                 >
 
                     <AddIcon/>
                 </Fab>
-            </div>
+            </form>
 
         )
     }

@@ -61,7 +61,6 @@ class App extends Component {
 
     };
 
-
     toggleProperty(arr, id, propName){
         const indx = arr.findIndex((el) => el.id === id);
         //1.update object

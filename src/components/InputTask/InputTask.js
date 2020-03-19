@@ -13,13 +13,16 @@ class InputTask extends React.Component{
     onLabelChange = (event) =>{
         this.setState(
             {
-                label: event.target.value
+                label: event.target.value.toUpperCase()
             });
     };
 
     onSubmit =(event) => {
         event.preventDefault();
         this.props.onAdded(this.state.label);
+        this.setState({
+            label: ''
+        });
     };
 
 
@@ -35,6 +38,7 @@ class InputTask extends React.Component{
                     color="secondary"
                     className={styles.input}
                      onChange={this.onLabelChange}
+                    value={this.state.label}
                 />
                 <Fab
                     color="secondary"

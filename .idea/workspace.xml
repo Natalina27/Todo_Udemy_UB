@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InputTask/InputTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputTask/InputTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +88,7 @@
       <workItem from="1584400330663" duration="335000" />
       <workItem from="1584440170279" duration="6692000" />
       <workItem from="1584494680171" duration="8517000" />
-      <workItem from="1584571306840" duration="3820000" />
+      <workItem from="1584571306840" duration="4875000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1584038598185</created>
@@ -368,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584574711138</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="controlled component, input toUpperCase(), clear form after adding">
+      <created>1584577200576</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1584577200576</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +397,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Init" />
     <MESSAGE value="deleted all from README" />
     <MESSAGE value="React element" />
     <MESSAGE value="React component" />
@@ -413,7 +421,8 @@
     <MESSAGE value="Data in React app : onToggleDone(id), onToggleImportant(id)" />
     <MESSAGE value="Editing elements : createTodoItem(), toggleProperty(), edited state" />
     <MESSAGE value="Form , onSubmit, onChange" />
-    <option name="LAST_COMMIT_MESSAGE" value="Form , onSubmit, onChange" />
+    <MESSAGE value="controlled component, input toUpperCase(), clear form after adding" />
+    <option name="LAST_COMMIT_MESSAGE" value="controlled component, input toUpperCase(), clear form after adding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

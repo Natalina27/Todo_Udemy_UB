@@ -12,9 +12,9 @@ class App extends Component {
     maxId = 100;
     state = {
         todoData: [
-            this.createTodoItem('Drink coffee'),
-            this.createTodoItem('Build app'),
-            this.createTodoItem('Have a lunch'),
+            this.createTodoItem('DRINK COFFEE'),
+            this.createTodoItem('BUILD APP'),
+            this.createTodoItem('HAVE A LUNCH'),
             ]
     };
 

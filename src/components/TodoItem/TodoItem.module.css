@@ -13,7 +13,9 @@
     font-size: 40px;
 }
 .text{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .button {
     background: lavenderblush;

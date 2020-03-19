@@ -15,7 +15,8 @@ class App extends Component {
             this.createTodoItem('DRINK COFFEE'),
             this.createTodoItem('BUILD APP'),
             this.createTodoItem('HAVE A LUNCH'),
-            ]
+            ],
+        term: ''
     };
 
     createTodoItem (label){
@@ -75,6 +76,7 @@ class App extends Component {
         ];
 
     }
+
     onToggleDone = (id) => {
         this.setState(({todoData}) =>{
 
@@ -95,17 +97,32 @@ class App extends Component {
 
     };
 
+    searchItem(items, term){
+            if(term.length === 0){
+                return items;
+            }
+            return items.filter((item) => {
+                return item.label.toLowerCase().indexOf(term.toLowerCase()) > -1;
+                });
+    }
+
+    onSearchChange = (term) => {
+        this.setState({ term });
+    };
+
         render() {
-            const {todoData} = this.state;
+            const {todoData, term} = this.state;
+            const visibleItems = this.searchItem(todoData, term);
             const doneCount = todoData.filter((el) => el.done).length;
             const todoCount = todoData.length - doneCount;
+
                 return (
                     <Container maxWidth='sm'>
                         <div className={styles.wrap}>
                             <AppHeader/>
-                            <SearchPanel/>
+                            <SearchPanel onSearchChange={this.onSearchChange}/>
                             <TodoList
-                                todos={todoData}
+                                todos={visibleItems}
                                 onDeleted={this.deleteItem}
                                 onToggleDone={this.onToggleDone}
                                 onToggleImportant={this.onToggleImportant}

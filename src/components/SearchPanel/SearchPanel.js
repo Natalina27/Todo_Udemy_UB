@@ -3,21 +3,33 @@ import TextField from '@material-ui/core/TextField';
 import styles from './SearchPanel.module.css';
 import ItemStatusFilter from "../ItemStatusFilter/ItemStatusFilter";
 
-const SearchPanel = () => {
-    return(
-        <div className={styles.search}>
-        <TextField
-            id="standard-search"
-            label="Search"
-            type="search"
-            aria-label="search"
-            className={styles.searchField}
-            inputProps={{ 'aria-label': 'search google maps' }}
+class SearchPanel extends React.Component{
+    state = {
+        term: ''
+    };
 
-        />
-        <ItemStatusFilter/>
-        </div>
-    );
-};
+    onSearchChange = (event) => {
+        const term = event.target.value;
+        this.setState({term});
+        this.props.onSearchChange(term);
+    };
+
+
+    render() {
+        return (
+            <div className={styles.search}>
+                <TextField
+                    label="Search"
+                    type="search"
+                    className={styles.searchField}
+                    value={this.state.term}
+                    onChange={this.onSearchChange}
+
+                />
+                <ItemStatusFilter/>
+            </div>
+        );
+    }
+}
 
 export default SearchPanel;

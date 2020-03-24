@@ -3,13 +3,17 @@ import Item from "../Item/Item";
 
 
 const ItemList = ({items}) => {
+
     const elements = items.map((item) => {
+
+        const { id, ...itemProps} = item; // Rest parameter
         return (
-            <li>
-                < Item {...item}/>
+            <li key={id}>
+                < Item {...itemProps}/>
             </li>
         );
     });
+
 
     return (
         <div>

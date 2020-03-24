@@ -10,15 +10,18 @@ const App = () => {
     const items = [
         {
             label: 'Drink 2 glasses of water',
-            important: true
+            important: true,
+            id: 1
         },
         {
             label:'Have a breakfast',
-            important: false
+            important: false,
+            id: 2
         },
         {
             label:'Drink coffee',
-            important: false
+            important: false,
+            id: 3
         }
     ];
 

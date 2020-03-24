@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,15 +21,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="2.React_component" />
+        <entry key="$PROJECT_DIR$" value="3.JSX" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,14 +100,7 @@
       <workItem from="1584494680171" duration="8517000" />
       <workItem from="1584571306840" duration="10178000" />
       <workItem from="1584631249642" duration="5902000" />
-      <workItem from="1585048935661" duration="7029000" />
-    </task>
-    <task id="LOCAL-00001" summary="Init">
-      <created>1584038598185</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1584038598185</updated>
+      <workItem from="1585048935661" duration="9705000" />
     </task>
     <task id="LOCAL-00002" summary="deleted all from README">
       <created>1584038848712</created>
@@ -428,7 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585065789461</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="JSX">
+      <created>1585066977235</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1585066977235</updated>
+    </task>
+    <task id="LOCAL-00050" summary="JSX">
+      <created>1585067000478</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1585067000478</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JSX" />
     <MESSAGE value="Project Structure part1" />
     <MESSAGE value="Props" />
     <MESSAGE value="Arrays like props of components" />
@@ -473,6 +489,7 @@
     <MESSAGE value="some changes" />
     <MESSAGE value="Search : serchItem(), onSearchChane()" />
     <MESSAGE value="1. React element" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. React element" />
+    <MESSAGE value="JSX" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSX" />
   </component>
 </project>

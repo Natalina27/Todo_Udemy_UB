@@ -12,9 +12,11 @@ const ItemList = () => {
         <div>
             <h1> My To-Do List</h1>
             <ul>
-                <li>< Item /></li>
-                <li>< Item /></li>
-                <li>< Item /></li>
+                <li>< Item
+                    label={items[0]}
+                    important/></li>
+                <li>< Item label={items[1]}/></li>
+                <li>< Item label={items[2]}/></li>
             </ul>
         </div>
     )

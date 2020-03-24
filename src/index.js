@@ -2,19 +2,30 @@ import React from 'react';
 import ReactDom from 'react-dom';
 
 const ItemList = () => {
+
+    const items = ['Drink 2 glasses of water', 'Have a breakfast', 'Drink coffee'];
+
     return (
         <div>
             <h1> My To-Do List</h1>
             <ul>
-                <li>Learn react</li>
-                <li>Build awesome app</li>
+                <li>{items[0]}</li>
+                <li>{items[1]}</li>
+                <li>{items[2]}</li>
             </ul>
         </div>
     )
 };
 
 const SearchItem = () => {
-    return <input placeholder='search'/>;
+    const searchStyle = {
+        fontSize: '25px'
+    };
+    const searchText = 'Type here to search';
+    return <input
+        placeholder={searchText}
+        style={searchStyle}
+    />;
 };
 
 const InputItem = () => {
@@ -22,11 +33,22 @@ const InputItem = () => {
 };
 
 const App = () => {
+    const isLoggedIn = false;
+    const welcomeBox = <span>Welcome back !</span>;
+    const loginBox = <span>Log in,  please</span>;
+
+
+    const value = '<script > alert("")</script>';
     return(
         <div>
-            <SearchItem/>
+            {value}
+            <span>{isLoggedIn ? welcomeBox : loginBox}</span>
+            <br/>
+            <span>{(new Date().toString())}</span>
+            <br/>
+            < SearchItem/>
             < ItemList/>
-            <InputItem/>
+            < InputItem/>
         </div>
     )
 };

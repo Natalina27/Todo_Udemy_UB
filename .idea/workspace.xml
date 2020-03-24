@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,14 +94,7 @@
       <workItem from="1584494680171" duration="8517000" />
       <workItem from="1584571306840" duration="10178000" />
       <workItem from="1584631249642" duration="5902000" />
-      <workItem from="1585048935661" duration="12713000" />
-    </task>
-    <task id="LOCAL-00005" summary="JSX">
-      <created>1584104316130</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1584104316130</updated>
+      <workItem from="1585048935661" duration="13630000" />
     </task>
     <task id="LOCAL-00006" summary="Project Structure part1">
       <created>1584106802151</created>
@@ -439,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585075340919</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Arrays like props">
+      <created>1585076270100</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1585076270100</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrays like props of components" />
     <MESSAGE value="Collections and keys" />
     <MESSAGE value="Styles by module" />
     <MESSAGE value="Styles by classnames" />
@@ -484,6 +483,7 @@
     <MESSAGE value="JSX" />
     <MESSAGE value="Project structure" />
     <MESSAGE value="props" />
-    <option name="LAST_COMMIT_MESSAGE" value="props" />
+    <MESSAGE value="Arrays like props" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays like props" />
   </component>
 </project>

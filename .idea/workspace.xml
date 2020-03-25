@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/App/App.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,14 +93,7 @@
       <workItem from="1584571306840" duration="10178000" />
       <workItem from="1584631249642" duration="5902000" />
       <workItem from="1585048935661" duration="23827000" />
-      <workItem from="1585129452360" duration="9203000" />
-    </task>
-    <task id="LOCAL-00011" summary="Styles by module">
-      <created>1584125668815</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1584125668815</updated>
+      <workItem from="1585129452360" duration="9411000" />
     </task>
     <task id="LOCAL-00012" summary="Styles by classnames">
       <created>1584127864631</created>
@@ -447,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585133415754</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="MUI styles">
+      <created>1585145616631</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1585145616632</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

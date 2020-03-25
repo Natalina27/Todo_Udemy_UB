@@ -54,3 +54,14 @@
 >> Реакт использует  key  чтобы эффективно сравнивать элементы при обновлении
 >> Не стоит делать ключи из индексов массива
 
+> 8. CSS - Bootstrap or Material UI
+>> Bootstrap можно подключать в index.html
+>> CSS для компонентов удобно хранить в отдельных файлахЖ
+>>1 компонент - 1 css файл
+>> WebPack поддерживает импорт CSS файлов из Javascript модулей
+>> MUI :
+[MUI Documentation](https://material-ui.com/)
+[Video tutorial course](https://www.youtube.com/watch?v=xm4LX5fJKZ8)
+
+
+

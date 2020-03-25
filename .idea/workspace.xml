@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,13 +95,8 @@
       <workItem from="1584631249642" duration="5902000" />
       <workItem from="1585048935661" duration="23827000" />
       <workItem from="1585129452360" duration="9411000" />
-    </task>
-    <task id="LOCAL-00012" summary="Styles by classnames">
-      <created>1584127864631</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1584127864631</updated>
+      <workItem from="1585148288159" duration="41000" />
+      <workItem from="1585150877810" duration="902000" />
     </task>
     <task id="LOCAL-00013" summary="Styles by Material UI (Google library)">
       <created>1584185628941</created>
@@ -438,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585145616632</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="MUI styles">
+      <created>1585148295783</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1585148295785</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

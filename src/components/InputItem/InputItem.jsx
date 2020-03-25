@@ -14,17 +14,17 @@ const CssTextField = withStyles({
             color: 'pink',
         },
         '& .MuiInput-underline:after': {
-            borderBottomColor: 'pink',
+            borderBottomColor: '#f48fb1',
         },
         '& .MuiOutlinedInput-root': {
             '& fieldset': {
                 borderColor: 'grey',
             },
             '&:hover fieldset': {
-                borderColor: 'violet',
+                borderColor: '#e91e63',
             },
             '&.Mui-focused fieldset': {
-                borderColor: 'pink',
+                borderColor: '#f48fb1',
             },
         },
     },

@@ -10,9 +10,11 @@ const ItemList = ({items}) => {
 
         const { id, ...itemProps} = item; // Rest parameter
         return (
-            <span key={id}>
+
+            <span key={id} >
                 < Item {...itemProps}/>
             </span>
+
         );
     });
 

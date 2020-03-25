@@ -5,6 +5,7 @@ import InputItem from "../InputItem/InputItem.jsx";
 import Footer from "../Footer/Footer";
 import 'typeface-roboto';
 import {Container} from "@material-ui/core";
+import styles from './App.module.css';
 
 
 const App = () => {
@@ -29,7 +30,7 @@ const App = () => {
     ];
 
     return(
-        <Container>
+        <Container  maxWidth="sm" className={styles.container}>
             < SearchItem/>
             < ItemList items={items}/>
             < InputItem/>

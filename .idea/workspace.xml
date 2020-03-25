@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilte.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,14 +98,7 @@
       <workItem from="1585048935661" duration="23827000" />
       <workItem from="1585129452360" duration="9411000" />
       <workItem from="1585148288159" duration="41000" />
-      <workItem from="1585150877810" duration="902000" />
-    </task>
-    <task id="LOCAL-00013" summary="Styles by Material UI (Google library)">
-      <created>1584185628941</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1584185628941</updated>
+      <workItem from="1585150877810" duration="1641000" />
     </task>
     <task id="LOCAL-00014" summary="Styles by Material UI (Google library)">
       <created>1584186114392</created>
@@ -441,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585148295785</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="MUI styles readme">
+      <created>1585161891626</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1585161891627</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Styles by classnames" />
     <MESSAGE value="Styles by Material UI (Google library)" />
     <MESSAGE value="deploy" />
     <MESSAGE value="styles" />
@@ -486,6 +487,7 @@
     <MESSAGE value="Arrays like props" />
     <MESSAGE value="key, rest parameter" />
     <MESSAGE value="MUI styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="MUI styles" />
+    <MESSAGE value="MUI styles readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="MUI styles readme" />
   </component>
 </project>

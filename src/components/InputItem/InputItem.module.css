@@ -1,6 +1,11 @@
-.root{
+.input{
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    border: 1px solid #e2e2e1;
+}
+.add{
+    display: flex;
+    background: lavenderblush;
+    border: red  1px wave;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }

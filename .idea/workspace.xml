@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/InputItem/InputItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Item/Item.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchPanel/SearchPanel.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputItem/InputItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputItem/InputItem.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,14 +94,8 @@
       <workItem from="1584494680171" duration="8517000" />
       <workItem from="1584571306840" duration="10178000" />
       <workItem from="1584631249642" duration="5902000" />
-      <workItem from="1585048935661" duration="23697000" />
-    </task>
-    <task id="LOCAL-00009" summary="Arrays like props of components">
-      <created>1584116412664</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1584116412664</updated>
+      <workItem from="1585048935661" duration="23827000" />
+      <workItem from="1585129452360" duration="2880000" />
     </task>
     <task id="LOCAL-00010" summary="Collections and keys">
       <created>1584118426041</created>
@@ -449,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585084630984</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="MUI styles">
+      <created>1585129401336</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1585129401336</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Styles by module" />
     <MESSAGE value="Styles by classnames" />
     <MESSAGE value="Styles by Material UI (Google library)" />
     <MESSAGE value="deploy" />
@@ -494,6 +484,7 @@
     <MESSAGE value="props" />
     <MESSAGE value="Arrays like props" />
     <MESSAGE value="key, rest parameter" />
-    <option name="LAST_COMMIT_MESSAGE" value="key, rest parameter" />
+    <MESSAGE value="MUI styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="MUI styles" />
   </component>
 </project>

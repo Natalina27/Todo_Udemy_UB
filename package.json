@@ -1,5 +1,5 @@
 {
-  "homepage":"https://natalina27.github.io/Todo_Udemy_UB/",
+  "homepage": "https://natalina27.github.io/Todo_Udemy_UB/",
   "name": "todo_udemy",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,8 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "typeface-roboto": "0.0.75"
   },
   "scripts": {
     "predeploy": "npm run build",

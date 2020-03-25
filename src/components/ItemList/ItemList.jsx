@@ -1,5 +1,7 @@
 import React from 'react';
 import Item from "../Item/Item";
+import 'typeface-roboto';
+import styles from './ItemList.module.css';
 
 
 const ItemList = ({items}) => {
@@ -8,19 +10,17 @@ const ItemList = ({items}) => {
 
         const { id, ...itemProps} = item; // Rest parameter
         return (
-            <li key={id}>
+            <span key={id}>
                 < Item {...itemProps}/>
-            </li>
+            </span>
         );
     });
 
 
     return (
         <div>
-            <h1> My To-Do List</h1>
-            <ul>
-                {elements}
-            </ul>
+            <h1 className={styles.title}> TODO LIST </h1>
+            {elements}
         </div>
     )
 };

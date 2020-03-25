@@ -3,6 +3,9 @@ import SearchItem from "../SearchPanel/SearchItem.jsx";
 import ItemList from "../ItemList/ItemList.jsx";
 import InputItem from "../InputItem/InputItem.jsx";
 import Footer from "../Footer/Footer";
+import 'typeface-roboto';
+import {Container} from "@material-ui/core";
+
 
 const App = () => {
 
@@ -26,12 +29,12 @@ const App = () => {
     ];
 
     return(
-        <div>
+        <Container>
             < SearchItem/>
             < ItemList items={items}/>
             < InputItem/>
             < Footer />
-        </div>
+        </Container>
     )
 };
 

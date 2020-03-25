@@ -1,0 +1,26 @@
+.important {
+    display: flex;
+    background: lavenderblush;
+    border: red  1px wave;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+.done{
+    text-decoration: line-through;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-size: small;
+}
+.buttons{
+    display: flex;
+}

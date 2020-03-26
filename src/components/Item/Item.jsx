@@ -11,46 +11,46 @@ import Button from '@material-ui/core/Button';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
+class Item  extends React.Component{
+    render(){
 
+         const {label, important = false} = this.props;
 
+        return (
+           <Box  m={1} className={styles.box}>
 
-const Item = ({label, important = false}) => {
-   // const [dense] = React.useState(false);
-    return (
-        <Box  m={1} className={styles.box}>
-            <div className={styles.box1}>
-                <Checkbox
-                    icon={<FavoriteBorder />}
-                    checkedIcon={<Favorite />}
-                    value="checked"
+               <div className={styles.box1}>
+                   <Checkbox
+                       icon={<FavoriteBorder />}
+                       checkedIcon={<Favorite />}
+                       value="checked"
+                   />
+                   <ListItem className={styles.box} component="text">
+                       <ListItemText primary={label}/>
+                   </ListItem>
+               </div>
 
-                />
-            <ListItem className={styles.box}>
-                <ListItemText
-                   // dense={dense}
-                    primary={label}
-                    // secondary={secondary ? 'Secondary text' : null}
-                />
-            </ListItem>
-            </div>
-            <div className={styles.box2}>
-                <IconButton
-                    aria-label="delete"
-                    href="#"
-                >
-                    <DeleteIcon
-                        fontSize="large"/>
-                </IconButton>
-                <div className={styles.important}>
-                    <Button
-                        color="secondary"
-                        href="#"
+               <div className={styles.box2}>
+                   <IconButton
+                       aria-label="delete"
+                       href="#"
+                   >
+                       <DeleteIcon fontSize="large"/>
 
-                    >!</Button>
-                </div>
-            </div>
+                   </IconButton>
+                   <div className={styles.important}>
+                       <Button
+                           color="secondary"
+                           href="#"
 
-        </Box>
-    )
-};
+                       >!</Button>
+                   </div>
+
+               </div>
+
+           </Box>
+       )
+   };
+}
+
 export default Item;

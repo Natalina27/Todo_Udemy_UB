@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="Class component">
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilte.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="9.Project_structure_improving" />
+        <entry key="$PROJECT_DIR$" value="10.Class_component" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,21 +99,7 @@
       <workItem from="1585129452360" duration="9411000" />
       <workItem from="1585148288159" duration="41000" />
       <workItem from="1585150877810" duration="1810000" />
-      <workItem from="1585209955351" duration="3201000" />
-    </task>
-    <task id="LOCAL-00016" summary="deploy">
-      <created>1584186687075</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1584186687075</updated>
-    </task>
-    <task id="LOCAL-00017" summary="deploy">
-      <created>1584187304586</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1584187304586</updated>
+      <workItem from="1585209955351" duration="5839000" />
     </task>
     <task id="LOCAL-00018" summary="deploy">
       <created>1584187687097</created>
@@ -445,7 +430,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585210904468</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Class component">
+      <created>1585218771087</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1585218771087</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Class component">
+      <created>1585218884969</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1585218884969</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

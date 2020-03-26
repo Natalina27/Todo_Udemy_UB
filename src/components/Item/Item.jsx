@@ -12,18 +12,19 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
 class Item  extends React.Component{
+
+    onClickDone=()=>{console.log(`Done: ${this.props.label}`)};
+
     render(){
-
-         const {label} = this.props;
-
+        const {label} = this.props;
         return (
            <Box  m={1} className={styles.box}>
-
                <div className={styles.box1}>
                    <Checkbox
                        icon={<FavoriteBorder />}
                        checkedIcon={<Favorite />}
                        value="checked"
+                       onClick={this.onClickDone}
                    />
                    <ListItem className={styles.box} component="li">
                        <ListItemText primary={label}/>

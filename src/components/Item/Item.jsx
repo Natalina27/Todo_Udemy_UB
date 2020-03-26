@@ -14,7 +14,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 class Item  extends React.Component{
     render(){
 
-         const {label, important = false} = this.props;
+         const {label} = this.props;
 
         return (
            <Box  m={1} className={styles.box}>
@@ -25,7 +25,7 @@ class Item  extends React.Component{
                        checkedIcon={<Favorite />}
                        value="checked"
                    />
-                   <ListItem className={styles.box} component="text">
+                   <ListItem className={styles.box} component="li">
                        <ListItemText primary={label}/>
                    </ListItem>
                </div>

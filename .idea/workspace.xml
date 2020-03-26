@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="10.Class_component" />
+        <entry key="$PROJECT_DIR$" value="11.Event_handling" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,14 +99,8 @@
       <workItem from="1585129452360" duration="9411000" />
       <workItem from="1585148288159" duration="41000" />
       <workItem from="1585150877810" duration="1810000" />
-      <workItem from="1585209955351" duration="5839000" />
-    </task>
-    <task id="LOCAL-00018" summary="deploy">
-      <created>1584187687097</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1584187687097</updated>
+      <workItem from="1585209955351" duration="5983000" />
+      <workItem from="1585237170827" duration="3170000" />
     </task>
     <task id="LOCAL-00019" summary="styles">
       <created>1584197752801</created>
@@ -444,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585218884969</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Event handling - click on Checkbox (onClickDone arrow function)">
+      <created>1585235499739</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1585235499739</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="styles" />
     <MESSAGE value="Project structure part2" />
     <MESSAGE value="Component Class, Event Handling, state" />
     <MESSAGE value="setState" />
@@ -489,6 +489,7 @@
     <MESSAGE value="MUI styles" />
     <MESSAGE value="Improving structure of project" />
     <MESSAGE value="Class component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class component" />
+    <MESSAGE value="Event handling - click on Checkbox (onClickDone arrow function)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Event handling - click on Checkbox (onClickDone arrow function)" />
   </component>
 </project>

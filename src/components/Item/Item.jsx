@@ -12,8 +12,13 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
 class Item  extends React.Component{
+    state = {
+        done: false
+    };
 
-    onClickDone=()=>{console.log(`Done: ${this.props.label}`)};
+    onClickDone=()=>{
+        this.setState({done: !this.state.done})
+    };
 
     render(){
         const {label} = this.props;
@@ -25,9 +30,13 @@ class Item  extends React.Component{
                        checkedIcon={<Favorite />}
                        value="checked"
                        onClick={this.onClickDone}
+
                    />
                    <ListItem className={styles.box} component="li">
-                       <ListItemText primary={label}/>
+                       <ListItemText
+                           primary={label}
+                           className={this.state.done ? styles.done : null}
+                       />
                    </ListItem>
                </div>
 

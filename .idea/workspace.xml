@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilte.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InputItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemStatusFilter/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchPanel/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +23,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="7.Collections_and_key" />
+        <entry key="$PROJECT_DIR$" value="8.MUI_styles" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +39,7 @@
   <component name="ProjectId" id="1Z2X10iI2CockbNRnXxC2JA0JHm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -98,14 +106,8 @@
       <workItem from="1585048935661" duration="23827000" />
       <workItem from="1585129452360" duration="9411000" />
       <workItem from="1585148288159" duration="41000" />
-      <workItem from="1585150877810" duration="1641000" />
-    </task>
-    <task id="LOCAL-00014" summary="Styles by Material UI (Google library)">
-      <created>1584186114392</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1584186114392</updated>
+      <workItem from="1585150877810" duration="1810000" />
+      <workItem from="1585209955351" duration="909000" />
     </task>
     <task id="LOCAL-00015" summary="deploy">
       <created>1584186477819</created>
@@ -443,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585161891627</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="MUI styles">
+      <created>1585164868957</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1585164868958</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,8 +495,8 @@
     <MESSAGE value="props" />
     <MESSAGE value="Arrays like props" />
     <MESSAGE value="key, rest parameter" />
-    <MESSAGE value="MUI styles" />
     <MESSAGE value="MUI styles readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="MUI styles readme" />
+    <MESSAGE value="MUI styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="MUI styles" />
   </component>
 </project>

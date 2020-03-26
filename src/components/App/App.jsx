@@ -1,8 +1,8 @@
 import React from "react";
-import SearchItem from "../SearchPanel/SearchItem.jsx";
-import ItemList from "../ItemList/ItemList.jsx";
-import InputItem from "../InputItem/InputItem.jsx";
-import Footer from "../Footer/Footer";
+import SearchItem from "../SearchPanel";
+import ItemList from "../ItemList";
+import InputItem from '../InputItem';
+import Footer from '../Footer';
 import 'typeface-roboto';
 import {Container} from "@material-ui/core";
 import styles from './App.module.css';

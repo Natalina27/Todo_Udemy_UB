@@ -63,5 +63,9 @@
 [MUI Documentation](https://material-ui.com/)
 [Video tutorial course](https://www.youtube.com/watch?v=xm4LX5fJKZ8)
 
+> 9. Project Structure improving
+>> Файлы компонента удобно хранить в отдельной папке
+>> Кроме JS и CSS у компонента могут быть файлы с юнит тестами и другими ресурсами
+>> Если в папке есть index.js то он импортируется по умолчанию
 
 

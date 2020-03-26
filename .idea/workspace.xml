@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,14 +98,7 @@
       <workItem from="1585148288159" duration="41000" />
       <workItem from="1585150877810" duration="1810000" />
       <workItem from="1585209955351" duration="5983000" />
-      <workItem from="1585237170827" duration="3170000" />
-    </task>
-    <task id="LOCAL-00019" summary="styles">
-      <created>1584197752801</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1584197752801</updated>
+      <workItem from="1585237170827" duration="3523000" />
     </task>
     <task id="LOCAL-00020" summary="styles">
       <created>1584208952332</created>
@@ -445,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585235499739</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="state, setState()">
+      <created>1585242711989</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1585242711989</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project structure part2" />
     <MESSAGE value="Component Class, Event Handling, state" />
     <MESSAGE value="setState" />
     <MESSAGE value="state update dependent on previous state &#10;checkbox click and important click" />
@@ -490,6 +487,7 @@
     <MESSAGE value="Improving structure of project" />
     <MESSAGE value="Class component" />
     <MESSAGE value="Event handling - click on Checkbox (onClickDone arrow function)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Event handling - click on Checkbox (onClickDone arrow function)" />
+    <MESSAGE value="state, setState()" />
+    <option name="LAST_COMMIT_MESSAGE" value="state, setState()" />
   </component>
 </project>

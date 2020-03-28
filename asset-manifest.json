@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/Todo_Udemy_UB/static/css/main.fec1bc6f.chunk.css",
-    "main.js": "/Todo_Udemy_UB/static/js/main.4d2ce708.chunk.js",
-    "main.js.map": "/Todo_Udemy_UB/static/js/main.4d2ce708.chunk.js.map",
+    "main.css": "/Todo_Udemy_UB/static/css/main.07f91e32.chunk.css",
+    "main.js": "/Todo_Udemy_UB/static/js/main.9944eeea.chunk.js",
+    "main.js.map": "/Todo_Udemy_UB/static/js/main.9944eeea.chunk.js.map",
     "runtime-main.js": "/Todo_Udemy_UB/static/js/runtime-main.c48660ab.js",
     "runtime-main.js.map": "/Todo_Udemy_UB/static/js/runtime-main.c48660ab.js.map",
-    "static/js/2.d330984d.chunk.js": "/Todo_Udemy_UB/static/js/2.d330984d.chunk.js",
-    "static/js/2.d330984d.chunk.js.map": "/Todo_Udemy_UB/static/js/2.d330984d.chunk.js.map",
+    "static/css/2.043e8e13.chunk.css": "/Todo_Udemy_UB/static/css/2.043e8e13.chunk.css",
+    "static/js/2.e995563f.chunk.js": "/Todo_Udemy_UB/static/js/2.e995563f.chunk.js",
+    "static/js/2.e995563f.chunk.js.map": "/Todo_Udemy_UB/static/js/2.e995563f.chunk.js.map",
     "index.html": "/Todo_Udemy_UB/index.html",
-    "precache-manifest.e472b91faf74e7a668ac802feaf1878e.js": "/Todo_Udemy_UB/precache-manifest.e472b91faf74e7a668ac802feaf1878e.js",
+    "precache-manifest.8b0aa446123f945e091dfb33e24b962f.js": "/Todo_Udemy_UB/precache-manifest.8b0aa446123f945e091dfb33e24b962f.js",
     "service-worker.js": "/Todo_Udemy_UB/service-worker.js",
-    "static/css/main.fec1bc6f.chunk.css.map": "/Todo_Udemy_UB/static/css/main.fec1bc6f.chunk.css.map",
-    "static/js/2.d330984d.chunk.js.LICENSE.txt": "/Todo_Udemy_UB/static/js/2.d330984d.chunk.js.LICENSE.txt"
+    "static/css/2.043e8e13.chunk.css.map": "/Todo_Udemy_UB/static/css/2.043e8e13.chunk.css.map",
+    "static/css/main.07f91e32.chunk.css.map": "/Todo_Udemy_UB/static/css/main.07f91e32.chunk.css.map",
+    "static/js/2.e995563f.chunk.js.LICENSE.txt": "/Todo_Udemy_UB/static/js/2.e995563f.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Todo_Udemy_UB/static/media/roboto-latin-900italic.ebf6d164.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.c48660ab.js",
-    "static/js/2.d330984d.chunk.js",
-    "static/css/main.fec1bc6f.chunk.css",
-    "static/js/main.4d2ce708.chunk.js"
+    "static/css/2.043e8e13.chunk.css",
+    "static/js/2.e995563f.chunk.js",
+    "static/css/main.07f91e32.chunk.css",
+    "static/js/main.9944eeea.chunk.js"
   ]
 }

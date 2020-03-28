@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8ceb04119ca9b3e655c3d3bfffb6877",
+    "revision": "df448e6807d538694e552d736f13c701",
     "url": "/Todo_Udemy_UB/index.html"
   },
   {
-    "revision": "ce8f1a0343e165cfe494",
+    "revision": "6c148c9dd37ac3e58a25",
     "url": "/Todo_Udemy_UB/static/css/2.043e8e13.chunk.css"
   },
   {
-    "revision": "6a341adc49170d407306",
-    "url": "/Todo_Udemy_UB/static/css/main.07f91e32.chunk.css"
+    "revision": "64ab4192082f56d25b16",
+    "url": "/Todo_Udemy_UB/static/css/main.96b245e3.chunk.css"
   },
   {
-    "revision": "ce8f1a0343e165cfe494",
-    "url": "/Todo_Udemy_UB/static/js/2.c611c02e.chunk.js"
+    "revision": "6c148c9dd37ac3e58a25",
+    "url": "/Todo_Udemy_UB/static/js/2.3d778c53.chunk.js"
   },
   {
     "revision": "c099810c3c102db7a44755001529c804",
-    "url": "/Todo_Udemy_UB/static/js/2.c611c02e.chunk.js.LICENSE.txt"
+    "url": "/Todo_Udemy_UB/static/js/2.3d778c53.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a341adc49170d407306",
-    "url": "/Todo_Udemy_UB/static/js/main.56a67eb5.chunk.js"
+    "revision": "64ab4192082f56d25b16",
+    "url": "/Todo_Udemy_UB/static/js/main.a8d35f6d.chunk.js"
   },
   {
     "revision": "6641689090dd4eb4e808",

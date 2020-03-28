@@ -4,8 +4,7 @@ import styles from './Item.module.css';
 import {
   Box, Checkbox, IconButton, Button, ListItem, ListItemText, Typography
 } from '@material-ui/core';
-import { FavoriteBorder, Favorite } from '@material-ui/icons';
-import DeleteIcon from '@material-ui/icons/Delete';
+import { FavoriteBorder, Favorite, Delete as DeleteIcon } from '@material-ui/icons';
 import classnames from 'classnames';
 
 

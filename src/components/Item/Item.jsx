@@ -28,7 +28,7 @@ class Item  extends React.Component {
     onClickImportant = () => {
         const { fontWeight} = this.state;
         const newFontWeight = fontWeight === 400 ? 600 : 400;
-       return this.state.isDone ?   null :
+        return this.state.isDone ?   null :
              this.setState({isImportant: !this.state.isImportant,
                  fontWeight: newFontWeight })
     };

@@ -2,7 +2,7 @@ import React from 'react';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 
-const ItemStatusFilter =()=>{
+const ItemStatusFilter = () =>{
   return (
             <ButtonGroup
                 variant="text"

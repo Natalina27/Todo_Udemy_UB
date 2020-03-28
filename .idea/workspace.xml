@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,14 +118,7 @@
       <workItem from="1585150877810" duration="1810000" />
       <workItem from="1585209955351" duration="5983000" />
       <workItem from="1585237170827" duration="21960000" />
-      <workItem from="1585390080566" duration="6083000" />
-    </task>
-    <task id="LOCAL-00027" summary="setState">
-      <created>1584284894792</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1584284894792</updated>
+      <workItem from="1585390080566" duration="6404000" />
     </task>
     <task id="LOCAL-00028" summary="state update dependent on previous state &#10;checkbox click and important click">
       <created>1584355754432</created>
@@ -466,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585395785197</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="added onClick handles onClickDone and onClickImportant">
+      <created>1585407279231</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1585407279231</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="own events" />
     <MESSAGE value=" own events - onDeleted by clicking on trash button" />
     <MESSAGE value="Delete item" />
     <MESSAGE value="Add Item" />
@@ -511,6 +507,7 @@
     <MESSAGE value="setState()" />
     <MESSAGE value="eslint added" />
     <MESSAGE value="cleaned code" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned code" />
+    <MESSAGE value="added onClick handles onClickDone and onClickImportant" />
+    <option name="LAST_COMMIT_MESSAGE" value="added onClick handles onClickDone and onClickImportant" />
   </component>
 </project>

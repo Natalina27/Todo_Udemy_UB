@@ -20,7 +20,7 @@ class Item extends React.Component {
     onClickDone = () => {
       this.setState({
         isDone: !this.state.isDone,
-        isImportant: !this.state.isImportant
+        isImportant: false
       });
     };
 
@@ -55,7 +55,7 @@ class Item extends React.Component {
                             primary={
                             <Typography
                                 style={{ fontWeight }}
-                                component={'text'}
+                                component={''}
                                 >
                                    {label}
                                  </Typography>

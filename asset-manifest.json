@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Todo_Udemy_UB/static/css/main.07f91e32.chunk.css",
-    "main.js": "/Todo_Udemy_UB/static/js/main.9944eeea.chunk.js",
-    "main.js.map": "/Todo_Udemy_UB/static/js/main.9944eeea.chunk.js.map",
+    "main.js": "/Todo_Udemy_UB/static/js/main.b4d88b62.chunk.js",
+    "main.js.map": "/Todo_Udemy_UB/static/js/main.b4d88b62.chunk.js.map",
     "runtime-main.js": "/Todo_Udemy_UB/static/js/runtime-main.c48660ab.js",
     "runtime-main.js.map": "/Todo_Udemy_UB/static/js/runtime-main.c48660ab.js.map",
     "static/css/2.043e8e13.chunk.css": "/Todo_Udemy_UB/static/css/2.043e8e13.chunk.css",
     "static/js/2.e995563f.chunk.js": "/Todo_Udemy_UB/static/js/2.e995563f.chunk.js",
     "static/js/2.e995563f.chunk.js.map": "/Todo_Udemy_UB/static/js/2.e995563f.chunk.js.map",
     "index.html": "/Todo_Udemy_UB/index.html",
-    "precache-manifest.8b0aa446123f945e091dfb33e24b962f.js": "/Todo_Udemy_UB/precache-manifest.8b0aa446123f945e091dfb33e24b962f.js",
+    "precache-manifest.f716bc9f01bf1ff8886c1bf11f500743.js": "/Todo_Udemy_UB/precache-manifest.f716bc9f01bf1ff8886c1bf11f500743.js",
     "service-worker.js": "/Todo_Udemy_UB/service-worker.js",
     "static/css/2.043e8e13.chunk.css.map": "/Todo_Udemy_UB/static/css/2.043e8e13.chunk.css.map",
     "static/css/main.07f91e32.chunk.css.map": "/Todo_Udemy_UB/static/css/main.07f91e32.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.043e8e13.chunk.css",
     "static/js/2.e995563f.chunk.js",
     "static/css/main.07f91e32.chunk.css",
-    "static/js/main.9944eeea.chunk.js"
+    "static/js/main.b4d88b62.chunk.js"
   ]
 }

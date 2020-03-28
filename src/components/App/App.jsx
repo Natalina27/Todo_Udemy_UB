@@ -24,12 +24,12 @@ const App = () => {
     }
   ];
   return (
-            <Container maxWidth="sm" className={styles.container}>
-                < SearchItem/>
-                < ItemList items={items}/>
-                < InputItem/>
-                < Footer/>
-            </Container>
+        <Container maxWidth="sm" className={styles.container}>
+            < SearchItem/>
+            < ItemList items={items}/>
+            < InputItem/>
+            < Footer/>
+        </Container>
   );
 };
 

@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="import DeleteIcon ( Delete as DeleteIcon )">
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/ItemStatusFilter/ItemStatusFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/ItemStatusFilter/ItemStatusFilter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemStatusFilter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/ItemStatusFilter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +59,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/SearchPanel" />
+      <recent name="$PROJECT_DIR$/src/components/ItemList" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,14 +136,7 @@
       <workItem from="1585150877810" duration="1810000" />
       <workItem from="1585209955351" duration="5983000" />
       <workItem from="1585237170827" duration="21960000" />
-      <workItem from="1585390080566" duration="10943000" />
-    </task>
-    <task id="LOCAL-00031" summary="own events">
-      <created>1584390734004</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1584390734004</updated>
+      <workItem from="1585390080566" duration="12742000" />
     </task>
     <task id="LOCAL-00032" summary=" own events - onDeleted by clicking on trash button">
       <created>1584394874932</created>
@@ -466,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585410473885</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="fixed fontWeight">
+      <created>1585414559455</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1585414559455</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Delete item" />
     <MESSAGE value="Add Item" />
     <MESSAGE value="Data in React app : onToggleDone(id), onToggleImportant(id)" />
     <MESSAGE value="Editing elements : createTodoItem(), toggleProperty(), edited state" />
@@ -511,6 +525,7 @@
     <MESSAGE value="cleaned code" />
     <MESSAGE value="added onClick handles onClickDone and onClickImportant" />
     <MESSAGE value="import DeleteIcon ( Delete as DeleteIcon )" />
-    <option name="LAST_COMMIT_MESSAGE" value="import DeleteIcon ( Delete as DeleteIcon )" />
+    <MESSAGE value="fixed fontWeight" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed fontWeight" />
   </component>
 </project>

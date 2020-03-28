@@ -1,5 +1,4 @@
 import React from 'react';
-import 'typeface-roboto';
 import styles from './Item.module.css';
 import {
   Box, Checkbox, IconButton, Button, ListItem, ListItemText, Typography
@@ -37,29 +36,28 @@ class Item extends React.Component {
       }
     };
 
-
     render() {
       const { label } = this.props;
       const { isDone, isImportant, fontWeight } = this.state;
       return (
-        <Box m={1} className={styles.box}>
-            <div className={styles.box1}>
-                <Checkbox
-                    icon={<FavoriteBorder />}
-                    checkedIcon={<Favorite />}
-                    value="checked"
-                    onClick={this.onClickDone}
-                />
+            <Box m={1} className={styles.box}>
+                <div className={styles.box1}>
+                    <Checkbox
+                        icon={<FavoriteBorder/>}
+                        checkedIcon={<Favorite/>}
+                        value="checked"
+                        onClick={this.onClickDone}
+                    />
                     <ListItem className={styles.box} component="li">
                         <ListItemText
                             primary={
-                            <Typography
-                                style={ { fontWeight } }
-                                component={''}
+                                <Typography
+                                    style={{ fontWeight }}
+                                    component={''}
                                 >
-                                   {label}
-                                 </Typography>
-                             }
+                                    {label}
+                                </Typography>
+                            }
                             className={classnames({
                               [styles.done]: isDone,
                               [styles.important]: isImportant
@@ -67,7 +65,7 @@ class Item extends React.Component {
                         />
                     </ListItem>
                 </div>
-            <div className={styles.box2}>
+                <div className={styles.box2}>
                     <IconButton
                         aria-label="delete"
                         href="#"
@@ -78,7 +76,7 @@ class Item extends React.Component {
                     <div className={styles.importantBox}>
                         <Button
                             color="secondary"
-                             href="#"
+                            href="#"
                             onClick={this.onClickImportant}
 
                         >!</Button>

@@ -1,10 +1,11 @@
-.box{
+.box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
-.text{
+
+.text {
     display: flex;
     align-items: center;
     font-family: Roboto serif;
@@ -14,7 +15,7 @@
 .importantBox {
     display: flex;
     background: lavenderblush;
-    border: red  1px wave;
+    border: red 1px wave;
     align-items: center;
     justify-content: center;
     font-weight: bold;
@@ -22,26 +23,26 @@
     height: 3em;
 }
 
-.important{
+.important {
     color: red;
     font-weight: bold;
     font-size: x-large;
 }
 
-
-.box1{
+.box1 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     font-family: serif;
 }
 
-.box2{
+.box2 {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.done{
+
+.done {
     text-decoration: line-through;
 }
 

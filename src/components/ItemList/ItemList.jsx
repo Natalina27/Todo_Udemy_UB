@@ -1,30 +1,27 @@
 import React from 'react';
-import Item from "../Item";
+import Item from '../Item';
 import 'typeface-roboto';
 import styles from './ItemList.module.css';
 
 
-const ItemList = ({items}) => {
+const ItemList = ({ items }) => {
+  const elements = items.map((item) => {
+    const { id, ...itemProps } = item; // Rest parameter
+    return (
 
-        const elements = items.map((item) => {
-                const { id, ...itemProps} = item; // Rest parameter
-                return (
-
-                    <span key={id} >
+            <span key={id}>
                         < Item {...itemProps}/>
                     </span>
 
-                );
-    });
+    );
+  });
 
 
-    return (
+  return (
         <div>
             <h1 className={styles.title}> TODO LIST </h1>
             {elements}
         </div>
-    )
+  );
 };
 export default ItemList;
-
-

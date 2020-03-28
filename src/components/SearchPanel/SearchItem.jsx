@@ -4,14 +4,13 @@ import Paper from '@material-ui/core/Paper';
 import InputBase from '@material-ui/core/InputBase';
 import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
-import ItemStatusFilter from "../ItemStatusFilter";
+import ItemStatusFilter from '../ItemStatusFilter';
 
 const SearchItem = () => {
-
-    return (
+  return (
         <div className={styles.search}>
         <Paper component="form" className={styles.root} >
-            <IconButton type="submit"  aria-label="search" href='#'>
+            <IconButton type="submit" aria-label="search" href='#'>
                 <SearchIcon />
             </IconButton>
             <InputBase
@@ -21,7 +20,7 @@ const SearchItem = () => {
         <ItemStatusFilter/>
         </div>
 
-    )
+  );
 };
 
 export default SearchItem;

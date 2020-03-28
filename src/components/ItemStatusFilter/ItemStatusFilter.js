@@ -1,10 +1,10 @@
-import React from "react";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
-import Button from "@material-ui/core/Button";
+import React from 'react';
+import ButtonGroup from '@material-ui/core/ButtonGroup';
+import Button from '@material-ui/core/Button';
 
-class ItemStatusFilter extends React.Component{
-    render(){
-        return(
+class ItemStatusFilter extends React.Component {
+  render() {
+    return (
             <ButtonGroup
                 variant="text"
                 color= "default"
@@ -13,8 +13,8 @@ class ItemStatusFilter extends React.Component{
                 <Button href="#">ACTIVE</Button>
                 <Button href="#">DONE</Button>
             </ButtonGroup>
-        );
-    }
+    );
+  }
 }
 
 

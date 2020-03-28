@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="cleaned code">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputItem/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemStatusFilter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemStatusFilter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,17 +51,23 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,6 +85,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -72,6 +105,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -100,14 +138,8 @@
       <workItem from="1585148288159" duration="41000" />
       <workItem from="1585150877810" duration="1810000" />
       <workItem from="1585209955351" duration="5983000" />
-      <workItem from="1585237170827" duration="19671000" />
-    </task>
-    <task id="LOCAL-00023" summary="Project structure part2">
-      <created>1584211205510</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1584211205510</updated>
+      <workItem from="1585237170827" duration="21960000" />
+      <workItem from="1585390080566" duration="4233000" />
     </task>
     <task id="LOCAL-00024" summary="Project structure part2">
       <created>1584211847859</created>
@@ -445,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585384378810</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="eslint added">
+      <created>1585386428094</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1585386428094</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,8 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="setState" />
-    <MESSAGE value="state update dependent on previous state &#10;checkbox click and important click" />
     <MESSAGE value="own events" />
     <MESSAGE value=" own events - onDeleted by clicking on trash button" />
     <MESSAGE value="Delete item" />
@@ -490,6 +527,8 @@
     <MESSAGE value="Event handling - click on Checkbox (onClickDone arrow function)" />
     <MESSAGE value="state, setState()" />
     <MESSAGE value="setState()" />
-    <option name="LAST_COMMIT_MESSAGE" value="setState()" />
+    <MESSAGE value="eslint added" />
+    <MESSAGE value="cleaned code" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned code" />
   </component>
 </project>

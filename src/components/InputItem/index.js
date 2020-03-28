@@ -1,2 +1,2 @@
-import InputItem from "./InputItem";
+import InputItem from './InputItem';
 export default InputItem;

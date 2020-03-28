@@ -6,7 +6,6 @@ import {
 } from '@material-ui/core';
 import { FavoriteBorder, Favorite } from '@material-ui/icons';
 import DeleteIcon from '@material-ui/icons/Delete';
-
 import classnames from 'classnames';
 
 
@@ -19,18 +18,23 @@ class Item extends React.Component {
     };
 
     onClickDone = () => {
-      this.setState({ isDone: !this.state.isDone });
+      this.setState({
+        isDone: !this.state.isDone,
+        isImportant: !this.state.isImportant
+      });
     };
 
     onClickImportant = () => {
-      const { fontWeight, textColor } = this.state;
+      const { fontWeight, textColor, isDone } = this.state;
       const newFontWeight = fontWeight === 400 ? 600 : 400;
       const newTextColor = textColor === 'black' ? 'red' : 'black';
-      this.setState({
-        isImportant: !this.state.isImportant,
-        fontWeight: newFontWeight,
-        textColor: newTextColor
-      });
+      if (!isDone) {
+        this.setState({
+          isImportant: !this.state.isImportant,
+          fontWeight: newFontWeight,
+          textColor: newTextColor
+        });
+      }
     };
 
 
@@ -51,7 +55,7 @@ class Item extends React.Component {
                             primary={
                             <Typography
                                 style={{ fontWeight }}
-                                component={'li'}
+                                component={'text'}
                                 >
                                    {label}
                                  </Typography>

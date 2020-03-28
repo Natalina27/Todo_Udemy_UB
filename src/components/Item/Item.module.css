@@ -11,7 +11,7 @@
     font-size: small;
 }
 
-.important {
+.importantBox {
     display: flex;
     background: lavenderblush;
     border: red  1px wave;
@@ -20,8 +20,15 @@
     font-weight: bold;
     width: auto;
     height: 3em;
-
 }
+
+.important{
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
 .box1{
     display: flex;
     align-items: center;

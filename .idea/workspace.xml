@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/natalyamyunster.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,14 +103,7 @@
       <workItem from="1585148288159" duration="41000" />
       <workItem from="1585150877810" duration="1810000" />
       <workItem from="1585209955351" duration="5983000" />
-      <workItem from="1585237170827" duration="3936000" />
-    </task>
-    <task id="LOCAL-00021" summary="styles">
-      <created>1584209954438</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1584209954438</updated>
+      <workItem from="1585237170827" duration="17784000" />
     </task>
     <task id="LOCAL-00022" summary="styles">
       <created>1584210885544</created>
@@ -444,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585244556994</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="setState()">
+      <created>1585247889542</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1585247889542</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Component Class, Event Handling, state" />
     <MESSAGE value="setState" />
     <MESSAGE value="state update dependent on previous state &#10;checkbox click and important click" />
     <MESSAGE value="own events" />
@@ -489,6 +492,7 @@
     <MESSAGE value="Class component" />
     <MESSAGE value="Event handling - click on Checkbox (onClickDone arrow function)" />
     <MESSAGE value="state, setState()" />
-    <option name="LAST_COMMIT_MESSAGE" value="state, setState()" />
+    <MESSAGE value="setState()" />
+    <option name="LAST_COMMIT_MESSAGE" value="setState()" />
   </component>
 </project>

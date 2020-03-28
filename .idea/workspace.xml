@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="import DeleteIcon ( Delete as DeleteIcon )">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.jsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +121,7 @@
       <workItem from="1585150877810" duration="1810000" />
       <workItem from="1585209955351" duration="5983000" />
       <workItem from="1585237170827" duration="21960000" />
-      <workItem from="1585390080566" duration="6952000" />
-    </task>
-    <task id="LOCAL-00030" summary="own events">
-      <created>1584374506204</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1584374506204</updated>
+      <workItem from="1585390080566" duration="10943000" />
     </task>
     <task id="LOCAL-00031" summary="own events">
       <created>1584390734004</created>
@@ -463,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585407562796</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="import DeleteIcon ( Delete as DeleteIcon )">
+      <created>1585410473885</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1585410473885</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" own events - onDeleted by clicking on trash button" />
     <MESSAGE value="Delete item" />
     <MESSAGE value="Add Item" />
     <MESSAGE value="Data in React app : onToggleDone(id), onToggleImportant(id)" />
@@ -508,6 +510,7 @@
     <MESSAGE value="eslint added" />
     <MESSAGE value="cleaned code" />
     <MESSAGE value="added onClick handles onClickDone and onClickImportant" />
-    <option name="LAST_COMMIT_MESSAGE" value="added onClick handles onClickDone and onClickImportant" />
+    <MESSAGE value="import DeleteIcon ( Delete as DeleteIcon )" />
+    <option name="LAST_COMMIT_MESSAGE" value="import DeleteIcon ( Delete as DeleteIcon )" />
   </component>
 </project>

@@ -19,7 +19,8 @@ class Item extends React.Component {
     onClickDone = () => {
       this.setState({
         isDone: !this.state.isDone,
-        isImportant: false
+        isImportant: false,
+        fontWeight: 400
       });
     };
 
@@ -53,7 +54,7 @@ class Item extends React.Component {
                         <ListItemText
                             primary={
                             <Typography
-                                style={{ fontWeight }}
+                                style={ { fontWeight } }
                                 component={''}
                                 >
                                    {label}

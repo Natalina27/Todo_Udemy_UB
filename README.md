@@ -133,3 +133,7 @@
 >> arr.push()- тоже изменение массива как и splice(), нельзя выполнять на массивах из state
 >> добавить элемент в начало массива const newArray =[ newItem, ...oldArray]
 >> добавить элемент в конец массива const newArray =[ ...oldArray, newItem]
+
+> 18. Refactoring 
+>> All data : state, eventHandlers are in one component: App
+

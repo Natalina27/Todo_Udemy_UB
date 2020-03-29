@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,14 +127,7 @@
       <workItem from="1585390080566" duration="13058000" />
       <workItem from="1585473217746" duration="8501000" />
       <workItem from="1585486465738" duration="13646000" />
-      <workItem from="1585514933247" duration="1089000" />
-    </task>
-    <task id="LOCAL-00043" summary="Search : serchItem(), onSearchChane()">
-      <created>1584614879670</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1584614879670</updated>
+      <workItem from="1585514933247" duration="1309000" />
     </task>
     <task id="LOCAL-00044" summary="Search : serchItem(), onSearchChane()">
       <created>1584639181448</created>
@@ -477,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585510007147</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary=" all data (state, event handling functions)  in one component App - refactoring">
+      <created>1585516197478</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1585516197479</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1. React element" />
     <MESSAGE value="JSX" />
     <MESSAGE value="Project structure" />
     <MESSAGE value="props" />
@@ -522,6 +516,7 @@
     <MESSAGE value="setState() - delete item from list" />
     <MESSAGE value="setState() - add item to list 1part" />
     <MESSAGE value=" all data in one component App - refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value=" all data in one component App - refactoring" />
+    <MESSAGE value=" all data (state, event handling functions)  in one component App - refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value=" all data (state, event handling functions)  in one component App - refactoring" />
   </component>
 </project>

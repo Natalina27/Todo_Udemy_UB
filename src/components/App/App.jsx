@@ -29,9 +29,7 @@ class App extends React.Component {
     onclickDelete = (id) => {
       this.setState(({ items })=>{
         const itemIndex = items.findIndex((el)=>el.id === id);
-        const before = items.slice(0, itemIndex);
-        const after = items.slice(itemIndex + 1);
-        const newItems = [...before, ...after];
+        const newItems = [...items.slice(0, itemIndex), ...items.slice(itemIndex + 1)];
 
         return { items: newItems };
       });

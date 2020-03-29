@@ -87,4 +87,4 @@
 >> Чтобы обновить state - setState()
 
 > 13. setState()
->> 
+>> В setState() нужно передавать только изменения в state 

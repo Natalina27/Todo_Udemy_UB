@@ -13,14 +13,26 @@ class App extends React.Component {
       items: [
         {
           label: 'Drink 2 glasses of water',
+          isDone: false,
+          isImportant: false,
+          textColor: 'black',
+          fontWeight: 400,
           id: 1
         },
         {
           label: 'Have a breakfast',
+          isDone: false,
+          isImportant: false,
+          textColor: 'black',
+          fontWeight: 400,
           id: 2
         },
         {
           label: 'Drink coffee',
+          isDone: false,
+          isImportant: false,
+          textColor: 'black',
+          fontWeight: 400,
           id: 3
         }
       ],
@@ -54,6 +66,35 @@ class App extends React.Component {
       });
     };
 
+    onClickDone = (id) => {
+      const newItemList = this.state.items.map(item => {
+        const newItem = { ...item };
+        if (item.id === id) {
+          newItem.isDone = !item.isDone;
+          newItem.isImportant = false;
+          newItem.fontWeight = 400;
+        }
+        return newItem;
+      });
+
+      this.setState({ items: newItemList });
+    };
+
+    onClickImportant = () => {
+      const { fontWeight, textColor, isDone } = this.state;
+      const newFontWeight = fontWeight === 400 ? 600 : 400;
+      const newTextColor = textColor === 'black' ? 'red' : 'black';
+      if (!isDone) {
+        this.setState(({ isImportant }) => {
+          return {
+            isImportant: !isImportant,
+            fontWeight: newFontWeight,
+            textColor: newTextColor
+          };
+        });
+      }
+    };
+
     render() {
       return (
             <Container maxWidth="sm" className={styles.container}>
@@ -61,6 +102,8 @@ class App extends React.Component {
                 < ItemList
                     items={this.state.items}
                     onClickDelete={this.onClickDelete}
+                    onClickDone={this.onClickDone}
+                    onClickImportant={this.onClickImportant}
                 />
                 < InputItem onClickAdd={this.onClickAdd}/>
                 < Footer/>

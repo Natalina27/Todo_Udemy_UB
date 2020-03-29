@@ -7,91 +7,58 @@ import { FavoriteBorder, Favorite, Delete as DeleteIcon } from '@material-ui/ico
 import classnames from 'classnames';
 
 
-class Item extends React.Component {
-    state = {
-      isDone: false,
-      isImportant: false,
-      fontWeight: 400,
-      textColor: 'black'
-    };
-
-    onClickDone = () => {
-      this.setState(({ isDone }) => {
-        return {
-          isDone: !isDone,
-          isImportant: false,
-          fontWeight: 400
-        };
-      });
-    };
-
-    onClickImportant = () => {
-      const { fontWeight, textColor, isDone } = this.state;
-      const newFontWeight = fontWeight === 400 ? 600 : 400;
-      const newTextColor = textColor === 'black' ? 'red' : 'black';
-      if (!isDone) {
-        this.setState(({ isImportant }) => {
-          return {
-            isImportant: !isImportant,
-            fontWeight: newFontWeight,
-            textColor: newTextColor
-          };
-        });
-      }
-    };
-
-    render() {
-      const { label, onClickDelete } = this.props;
-      const { isDone, isImportant, fontWeight } = this.state;
-      return (
-            <Box m={1} className={styles.box}>
-                <div className={styles.box1}>
-                    <Checkbox
-                        icon={<FavoriteBorder/>}
-                        checkedIcon={<Favorite/>}
-                        value="checked"
-                        onClick={this.onClickDone}
+const Item = ({
+  label, fontWeight, isDone, isImportant, onClickDelete, onClickDone, onClickImportant
+}) => {
+  return (
+        <Box m={1} className={styles.box}>
+            <div className={styles.box1}>
+                <Checkbox
+                    icon={<FavoriteBorder/>}
+                    checkedIcon={<Favorite/>}
+                    value="checked"
+                    onClick={onClickDone}
+                />
+                <ListItem className={styles.box} component="li">
+                    <ListItemText
+                        primary={
+                            <Typography
+                                style={{ fontWeight }}
+                                component={''}
+                            >
+                                {label}
+                            </Typography>
+                        }
+                        className={classnames({
+                          [styles.done]: isDone,
+                          [styles.important]: isImportant
+                        })}
                     />
-                    <ListItem className={styles.box} component="li">
-                        <ListItemText
-                            primary={
-                                <Typography
-                                    style={{ fontWeight }}
-                                    component={''}
-                                >
-                                    {label}
-                                </Typography>
-                            }
-                            className={classnames({
-                              [styles.done]: isDone,
-                              [styles.important]: isImportant
-                            })}
-                        />
-                    </ListItem>
-                </div>
-                <div className={styles.box2}>
-                    <IconButton
-                        aria-label="delete"
+                </ListItem>
+            </div>
+            <div className={styles.box2}>
+                <IconButton
+                    aria-label="delete"
+                    href="#"
+                    onClick={onClickDelete}
+                >
+                    <DeleteIcon fontSize="large"/>
+
+                </IconButton>
+                <div className={styles.importantBox}>
+                    <Button
+                        color="secondary"
                         href="#"
-                        onClick={ onClickDelete }
-                    >
-                        <DeleteIcon fontSize="large"/>
+                        onClick={onClickImportant}
 
-                    </IconButton>
-                    <div className={styles.importantBox}>
-                        <Button
-                            color="secondary"
-                            href="#"
-                            onClick={ this.onClickImportant }
-
-                        >!</Button>
-                    </div>
-
+                    >!</Button>
                 </div>
 
-            </Box>
-      );
-    }
-}
+            </div>
+
+        </Box>
+  );
+};
+
 
 export default Item;

@@ -76,23 +76,24 @@ class App extends React.Component {
         }
         return newItem;
       });
-
       this.setState({ items: newItemList });
     };
 
-    onClickImportant = () => {
-      const { fontWeight, textColor, isDone } = this.state;
-      const newFontWeight = fontWeight === 400 ? 600 : 400;
-      const newTextColor = textColor === 'black' ? 'red' : 'black';
-      if (!isDone) {
-        this.setState(({ isImportant }) => {
-          return {
-            isImportant: !isImportant,
-            fontWeight: newFontWeight,
-            textColor: newTextColor
-          };
-        });
-      }
+    onClickImportant = (id) => {
+      const newItemList = this.state.items.map(item => {
+        const newItem = { ...item };
+        const newFontWeight = item.fontWeight === 400 ? 600 : 400;
+        const newTextColor = item.textColor === 'black' ? 'red' : 'black';
+        if (!item.isDone) {
+          if (item.id === id) {
+            newItem.isImportant = !item.isImportant;
+            newItem.fontWeight = newFontWeight;
+            newItem.textColor = newTextColor;
+          }
+        }
+        return newItem;
+      });
+      this.setState({ items: newItemList });
     };
 
     render() {

@@ -4,7 +4,8 @@ import styles from './ItemList.module.css';
 
 const ItemList = ({
   items, onClickDelete, onClickDone, onClickImportant
-}) => (<div>
+}) => (
+    <div>
         <h1 className={styles.title}> TO-DO LIST </h1>
         {items.map(
           (item) => <span key={item.id}>
@@ -17,7 +18,7 @@ const ItemList = ({
                     id={item.id}
                     onClickDelete={() => onClickDelete(item.id)}
                     onClickDone={() => onClickDone(item.id)}
-                    onClickImportant={() => onClickImportant}
+                    onClickImportant={() => onClickImportant(item.id)}
                 />
             </span>
         )}

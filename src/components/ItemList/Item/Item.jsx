@@ -16,25 +16,31 @@ class Item extends React.Component {
     };
 
     onClickDone = () => {
-      this.setState({
-        isDone: !this.state.isDone,
-        isImportant: false,
-        fontWeight: 400
+      this.setState(({ isDone }) => {
+        return {
+          isDone: !isDone,
+          isImportant: false,
+          fontWeight: 400
+        };
       });
     };
+
 
     onClickImportant = () => {
       const { fontWeight, textColor, isDone } = this.state;
       const newFontWeight = fontWeight === 400 ? 600 : 400;
       const newTextColor = textColor === 'black' ? 'red' : 'black';
       if (!isDone) {
-        this.setState({
-          isImportant: !this.state.isImportant,
-          fontWeight: newFontWeight,
-          textColor: newTextColor
+        this.setState(({ isImportant }) => {
+          return {
+            isImportant: !isImportant,
+            fontWeight: newFontWeight,
+            textColor: newTextColor
+          };
         });
       }
     };
+
 
     render() {
       const { label } = this.props;

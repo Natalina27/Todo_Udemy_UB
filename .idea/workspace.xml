@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="15.Own_events" />
+        <entry key="$PROJECT_DIR$" value="16.setState()-delete_items" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -130,14 +132,7 @@
       <workItem from="1585237170827" duration="21960000" />
       <workItem from="1585390080566" duration="13058000" />
       <workItem from="1585473217746" duration="8501000" />
-      <workItem from="1585486465738" duration="319000" />
-    </task>
-    <task id="LOCAL-00039" summary="Editing elements : createTodoItem(), toggleProperty(), edited state">
-      <created>1584540687462</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1584540687463</updated>
+      <workItem from="1585486465738" duration="6813000" />
     </task>
     <task id="LOCAL-00040" summary="Form , onSubmit, onChange">
       <created>1584574711138</created>
@@ -475,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585486348371</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="setState() - delete item from list">
+      <created>1585486799081</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1585486799082</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="controlled component, input toUpperCase(), clear form after adding" />
     <MESSAGE value="some changes" />
     <MESSAGE value="Search : serchItem(), onSearchChane()" />
     <MESSAGE value="1. React element" />
@@ -520,6 +521,7 @@
     <MESSAGE value="state update dependent on previous state &#10;this.setState ((state)=&gt;{return{}});&#10; because of async" />
     <MESSAGE value="Own events, callback functions like liftProps" />
     <MESSAGE value="setState() - delete itemj from list" />
-    <option name="LAST_COMMIT_MESSAGE" value="setState() - delete itemj from list" />
+    <MESSAGE value="setState() - delete item from list" />
+    <option name="LAST_COMMIT_MESSAGE" value="setState() - delete item from list" />
   </component>
 </project>

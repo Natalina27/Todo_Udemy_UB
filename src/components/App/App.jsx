@@ -23,15 +23,34 @@ class App extends React.Component {
           label: 'Drink coffee',
           id: 3
         }
-      ]
+      ],
+      count: 3
     };
 
-    onclickDelete = (id) => {
-      this.setState(({ items })=>{
-        const itemIndex = items.findIndex((el)=>el.id === id);
+    onClickDelete = (id) => {
+      this.setState(({ items }) => {
+        const itemIndex = items.findIndex((el) => el.id === id);
         const newItems = [...items.slice(0, itemIndex), ...items.slice(itemIndex + 1)];
 
         return { items: newItems };
+      });
+    };
+
+    onClickAdd = (text) => {
+      const newItem = {
+        label: text,
+        important: false,
+        isDone: false,
+        id: this.state.count + 1
+      };
+
+      this.setState(({ items, count }) => {
+        const newArray = [
+          ...items,
+          newItem
+        ];
+
+        return { items: newArray, count: count + 1 };
       });
     };
 
@@ -41,9 +60,9 @@ class App extends React.Component {
                 < SearchItem/>
                 < ItemList
                     items={this.state.items}
-                    onClickDelete={this.onclickDelete}
+                    onClickDelete={this.onClickDelete}
                 />
-                < InputItem/>
+                < InputItem onClickAdd={this.onClickAdd}/>
                 < Footer/>
             </Container>
       );

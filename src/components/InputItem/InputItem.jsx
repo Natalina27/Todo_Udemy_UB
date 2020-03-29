@@ -40,8 +40,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-
-const InputItem = () => {
+const InputItem = ({ onClickAdd }) => {
   const classes = useStyles();
   return (
         <form className={styles.input}>
@@ -56,6 +55,7 @@ const InputItem = () => {
                     color="secondary"
                     href="#"
                     className={styles.add}
+                    onClick={() => onClickAdd('hello')}
 
                 >ADD</Button>
         </form>

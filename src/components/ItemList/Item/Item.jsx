@@ -82,7 +82,7 @@ class Item extends React.Component {
                         <Button
                             color="secondary"
                             href="#"
-                            onClick={this.onClickImportant}
+                            onClick={ this.onClickImportant }
 
                         >!</Button>
                     </div>

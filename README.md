@@ -124,8 +124,12 @@
 >
 >> setState() не должен изменять текущий state
 >
->> методы которые изменяют (mutate) массив использовать нельзя
+>> методы которые изменяют (mutate) массив использовать нельзя (splice)
 >
 >> newArray = [...oldArray(0, index), ...oldArray(index + 1)];
 >>  newArray не изменяет oldArray
->
+
+> 17. setState() - добавление  элемента
+>> arr.push()- тоже изменение массива как и splice(), нельзя выполнять на массивах из state
+>> добавить элемент в начало массива const newArray =[ newItem, ...oldArray]
+>> добавить элемент в конец массива const newArray =[ ...oldArray, newItem]

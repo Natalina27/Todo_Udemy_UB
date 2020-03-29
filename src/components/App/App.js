@@ -45,6 +45,7 @@ class App extends Component {
                 };
             }
             )};
+
     addItem = (text)=> {
         const newItem = this.createTodoItem(text);
 
@@ -76,7 +77,6 @@ class App extends Component {
         ];
 
     }
-
     onToggleDone = (id) => {
         this.setState(({todoData}) =>{
 

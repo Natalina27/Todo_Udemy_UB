@@ -19,7 +19,7 @@ const TodoItem =({label,
 
         let classNames = classnames ({
             [styles.item]:true,
-             [styles.important]:important,
+            [styles.important]:important,
             [styles.label]: true,
             [styles.text]: true,
             [styles.done]: done

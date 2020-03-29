@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="14.state_update_dependent_on_previous_state" />
+        <entry key="$PROJECT_DIR$" value="15.Own_events" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -131,14 +129,7 @@
       <workItem from="1585209955351" duration="5983000" />
       <workItem from="1585237170827" duration="21960000" />
       <workItem from="1585390080566" duration="13058000" />
-      <workItem from="1585473217746" duration="7071000" />
-    </task>
-    <task id="LOCAL-00037" summary="Data in React app : onToggleDone(id), onToggleImportant(id)">
-      <created>1584522500297</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1584522500297</updated>
+      <workItem from="1585473217746" duration="8333000" />
     </task>
     <task id="LOCAL-00038" summary="Editing elements : createTodoItem(), toggleProperty(), edited state">
       <created>1584531746846</created>
@@ -476,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585478188591</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Own events, callback functions like liftProps">
+      <created>1585482962668</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1585482962668</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Editing elements : createTodoItem(), toggleProperty(), edited state" />
     <MESSAGE value="Form , onSubmit, onChange" />
     <MESSAGE value="controlled component, input toUpperCase(), clear form after adding" />
     <MESSAGE value="some changes" />
@@ -521,6 +518,7 @@
     <MESSAGE value="fixed fontWeight" />
     <MESSAGE value="code reformat" />
     <MESSAGE value="state update dependent on previous state &#10;this.setState ((state)=&gt;{return{}});&#10; because of async" />
-    <option name="LAST_COMMIT_MESSAGE" value="state update dependent on previous state &#10;this.setState ((state)=&gt;{return{}});&#10; because of async" />
+    <MESSAGE value="Own events, callback functions like liftProps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Own events, callback functions like liftProps" />
   </component>
 </project>

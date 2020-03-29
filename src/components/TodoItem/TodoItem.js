@@ -59,7 +59,6 @@ const TodoItem =({label,
                     </div>
                 </div>
             </div>
-
         )
     };
 

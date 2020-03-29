@@ -25,7 +25,6 @@ class Item extends React.Component {
       });
     };
 
-
     onClickImportant = () => {
       const { fontWeight, textColor, isDone } = this.state;
       const newFontWeight = fontWeight === 400 ? 600 : 400;
@@ -41,9 +40,8 @@ class Item extends React.Component {
       }
     };
 
-
     render() {
-      const { label } = this.props;
+      const { label, onClickDelete } = this.props;
       const { isDone, isImportant, fontWeight } = this.state;
       return (
             <Box m={1} className={styles.box}>
@@ -75,6 +73,7 @@ class Item extends React.Component {
                     <IconButton
                         aria-label="delete"
                         href="#"
+                        onClick={ onClickDelete }
                     >
                         <DeleteIcon fontSize="large"/>
 

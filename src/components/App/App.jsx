@@ -8,29 +8,41 @@ import { Container } from '@material-ui/core';
 import styles from './App.module.css';
 
 
-const App = () => {
-  const items = [
-    {
-      label: 'Drink 2 glasses of water',
-      id: 1
-    },
-    {
-      label: 'Have a breakfast',
-      id: 2
-    },
-    {
-      label: 'Drink coffee',
-      id: 3
+class App extends React.Component {
+    state = {
+      items: [
+        {
+          label: 'Drink 2 glasses of water',
+          id: 1
+        },
+        {
+          label: 'Have a breakfast',
+          id: 2
+        },
+        {
+          label: 'Drink coffee',
+          id: 3
+        }
+      ]
+    };
+
+    onclickDelete = (id) => {
+      console.log('Deleted', id);
+    };
+
+    render() {
+      return (
+            <Container maxWidth="sm" className={styles.container}>
+                < SearchItem/>
+                < ItemList
+                    items={this.state.items}
+                    onClickDelete={this.onclickDelete}
+                />
+                < InputItem/>
+                < Footer/>
+            </Container>
+      );
     }
-  ];
-  return (
-        <Container maxWidth="sm" className={styles.container}>
-            < SearchItem/>
-            < ItemList items={items}/>
-            < InputItem/>
-            < Footer/>
-        </Container>
-  );
-};
+}
 
 export default App;

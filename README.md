@@ -99,4 +99,22 @@
         }
     });
 ```
+> 15. Own events (Собственная система событий)
+>
+>> Первым делом добавляем в свойства каждого Item кастомный event
+>(ItemList -> onClickDelete={()=> console.log('Deleted')})
+>
+>>Потом в Item -> на  кнопку вешаем событие onClick={this.props.onclickDelete}
+>
+>> деструктурирем { onClickDelete}=this.props 
+>> перепишем  onClick={onclickDelete}
+>
+>>Переносим еще на уровень выше :
+>> App -> <ItemList onClickDelete={(id) => {console.log('Deleted', id)}
 
+>> Любой компонент может генерировать собственные события (onDone, onAdded, ...)
+>
+>> Достаточно передать callback function like a property , а затем вызвать ее из компонентаб
+>> когда наступило событие
+>
+>> Через события данные поднимаютя вверх по иерархии компонентов

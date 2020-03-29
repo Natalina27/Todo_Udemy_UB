@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="state update dependent on previous state &#10;this.setState ((state)=&gt;{return{}});&#10; because of async">
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="13.setState()" />
+        <entry key="$PROJECT_DIR$" value="14.state_update_dependent_on_previous_state" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.lint">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -129,14 +131,7 @@
       <workItem from="1585209955351" duration="5983000" />
       <workItem from="1585237170827" duration="21960000" />
       <workItem from="1585390080566" duration="13058000" />
-      <workItem from="1585473217746" duration="4261000" />
-    </task>
-    <task id="LOCAL-00036" summary="Add Item">
-      <created>1584471627002</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1584471627002</updated>
+      <workItem from="1585473217746" duration="7071000" />
     </task>
     <task id="LOCAL-00037" summary="Data in React app : onToggleDone(id), onToggleImportant(id)">
       <created>1584522500297</created>
@@ -474,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585474885260</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="state update dependent on previous state &#10;this.setState ((state)=&gt;{return{}});&#10; because of async">
+      <created>1585478188591</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1585478188591</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

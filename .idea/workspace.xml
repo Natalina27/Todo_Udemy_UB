@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/ItemStatusFilter/ItemStatusFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemStatusFilter/ItemStatusFilter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/ItemStatusFilter/ItemStatusFilter.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemStatusFilter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/ItemStatusFilter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/SearchItem.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,14 +126,7 @@
       <workItem from="1585150877810" duration="1810000" />
       <workItem from="1585209955351" duration="5983000" />
       <workItem from="1585237170827" duration="21960000" />
-      <workItem from="1585390080566" duration="12742000" />
-    </task>
-    <task id="LOCAL-00032" summary=" own events - onDeleted by clicking on trash button">
-      <created>1584394874932</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1584394874932</updated>
+      <workItem from="1585390080566" duration="13036000" />
     </task>
     <task id="LOCAL-00033" summary="Delete item">
       <created>1584397968028</created>
@@ -481,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585414559455</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="code reformat">
+      <created>1585421285087</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1585421285087</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +491,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Item" />
     <MESSAGE value="Data in React app : onToggleDone(id), onToggleImportant(id)" />
     <MESSAGE value="Editing elements : createTodoItem(), toggleProperty(), edited state" />
     <MESSAGE value="Form , onSubmit, onChange" />
@@ -526,6 +515,7 @@
     <MESSAGE value="added onClick handles onClickDone and onClickImportant" />
     <MESSAGE value="import DeleteIcon ( Delete as DeleteIcon )" />
     <MESSAGE value="fixed fontWeight" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed fontWeight" />
+    <MESSAGE value="code reformat" />
+    <option name="LAST_COMMIT_MESSAGE" value="code reformat" />
   </component>
 </project>

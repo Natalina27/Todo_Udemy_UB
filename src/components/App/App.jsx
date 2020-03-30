@@ -62,7 +62,7 @@ class App extends React.Component {
       });
     };
 
-    toggleProperty(arr, id, stateItem, isImportant = false, fontWeight = 400) {
+    toggleProperty = (arr, id, stateItem, isImportant = false, fontWeight = 400) => {
       const itemIndex = arr.findIndex((el) => el.id === id);
       const oldItem = arr[itemIndex];
       const newItem = {

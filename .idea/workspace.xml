@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,14 +130,7 @@
       <workItem from="1585473217746" duration="8501000" />
       <workItem from="1585486465738" duration="13646000" />
       <workItem from="1585514933247" duration="1309000" />
-      <workItem from="1585555080368" duration="11567000" />
-    </task>
-    <task id="LOCAL-00045" summary="Search : serchItem(), onSearchChane()">
-      <created>1584642282032</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1584642282032</updated>
+      <workItem from="1585555080368" duration="12216000" />
     </task>
     <task id="LOCAL-00046" summary="1. React element">
       <created>1585057240973</created>
@@ -476,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585517614416</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="data editing">
+      <created>1585574700979</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1585574700980</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JSX" />
     <MESSAGE value="Project structure" />
     <MESSAGE value="props" />
     <MESSAGE value="Arrays like props" />
@@ -521,6 +519,7 @@
     <MESSAGE value="setState() - add item to list 1part" />
     <MESSAGE value=" all data in one component App - refactoring" />
     <MESSAGE value=" all data (state, event handling functions)  in one component App - refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value=" all data (state, event handling functions)  in one component App - refactoring" />
+    <MESSAGE value="data editing" />
+    <option name="LAST_COMMIT_MESSAGE" value="data editing" />
   </component>
 </project>

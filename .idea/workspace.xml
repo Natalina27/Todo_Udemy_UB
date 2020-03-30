@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,21 +128,7 @@
       <workItem from="1585473217746" duration="8501000" />
       <workItem from="1585486465738" duration="13646000" />
       <workItem from="1585514933247" duration="1309000" />
-      <workItem from="1585555080368" duration="12216000" />
-    </task>
-    <task id="LOCAL-00046" summary="1. React element">
-      <created>1585057240973</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1585057240973</updated>
-    </task>
-    <task id="LOCAL-00047" summary="1. React element">
-      <created>1585060211360</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1585060211360</updated>
+      <workItem from="1585555080368" duration="12565000" />
     </task>
     <task id="LOCAL-00048" summary="1. React element">
       <created>1585065789461</created>
@@ -475,7 +459,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585574700980</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="data editing">
+      <created>1585600057555</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1585600057555</updated>
+    </task>
+    <task id="LOCAL-00096" summary="data editing">
+      <created>1585600110290</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1585600110290</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -41,14 +41,19 @@ class InputItem extends React.Component {
 
   onSubmit = (event) => {
     event.preventDefault();
-    this.props.onClickAdd(this.state.label);
+    this.onClearInput();
   };
+
+  onClearInput = () => {
+    this.setState({ label: '' });
+    this.props.onClickAdd(this.state.label);
+  }
 
   render() {
     return (
         <form
             className={styles.input}
-            onSubmit={this.onSubmit}
+            onSubmit={this.onClearInput}
         >
           <CssTextField
               fullWidth
@@ -61,7 +66,7 @@ class InputItem extends React.Component {
               color="secondary"
               href="#"
               className={styles.add}
-               onClick={this.onSubmit}
+              onClick={this.onClearInput}
 
           >ADD</Button>
         </form>

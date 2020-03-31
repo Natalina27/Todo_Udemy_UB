@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,14 +132,7 @@
       <workItem from="1585486465738" duration="13646000" />
       <workItem from="1585514933247" duration="1309000" />
       <workItem from="1585555080368" duration="12657000" />
-      <workItem from="1585644413422" duration="6697000" />
-    </task>
-    <task id="LOCAL-00050" summary="JSX">
-      <created>1585067000478</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1585067000478</updated>
+      <workItem from="1585644413422" duration="7457000" />
     </task>
     <task id="LOCAL-00051" summary="Project structure">
       <created>1585071948610</created>
@@ -478,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585646058678</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Работа с формами onSubmit()">
+      <created>1585661826790</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1585661826791</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrays like props" />
     <MESSAGE value="key, rest parameter" />
     <MESSAGE value="MUI styles readme" />
     <MESSAGE value="MUI styles" />
@@ -523,6 +521,7 @@
     <MESSAGE value="data editing" />
     <MESSAGE value="data editing: toggleProperty, doneCount, todoCount" />
     <MESSAGE value="data editing: createNewItem, toggleProperty, doneCount, todoCount" />
-    <option name="LAST_COMMIT_MESSAGE" value="data editing: createNewItem, toggleProperty, doneCount, todoCount" />
+    <MESSAGE value="Работа с формами onSubmit()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работа с формами onSubmit()" />
   </component>
 </project>

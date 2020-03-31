@@ -39,10 +39,14 @@ class InputItem extends React.Component {
     });
   };
 
-  onSubmit = () => {
-    this.setState({ inputValue: '' });
+  onSubmit = (event) => {
+    event.preventDefault();
     this.props.onClickAdd(this.state.inputValue);
-  }
+    this.setState({
+      inputValue: ''
+    });
+  };
+
 
   render() {
     return (
@@ -56,12 +60,13 @@ class InputItem extends React.Component {
               variant="outlined"
               id="custom-css-outlined-input"
               onChange={this.onLabelChange}
+
           />
           <Button
               color="secondary"
               href="#"
               className={styles.add}
-              onClick={this.onClearInput}
+              onClick={this.onSubmit}
 
           >ADD</Button>
         </form>

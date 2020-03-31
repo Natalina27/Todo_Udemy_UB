@@ -35,11 +35,11 @@ class InputItem extends React.Component {
 
   onLabelChange = (event) => {
     this.setState({
-      inputValue: event.target.value
+      inputValue: event.target.value.toUpperCase()
     });
   };
 
-  onClearInput = () => {
+  onSubmit = () => {
     this.setState({ inputValue: '' });
     this.props.onClickAdd(this.state.inputValue);
   }
@@ -48,7 +48,7 @@ class InputItem extends React.Component {
     return (
         <form
             className={styles.input}
-            onSubmit={this.onClearInput}
+            onSubmit={this.onSubmit}
         >
           <CssTextField
               fullWidth

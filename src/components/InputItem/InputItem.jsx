@@ -30,23 +30,18 @@ const CssTextField = withStyles({
 
 class InputItem extends React.Component {
   state = {
-    label: ''
+    inputValue: ''
   };
 
   onLabelChange = (event) => {
     this.setState({
-      label: event.target.value
+      inputValue: event.target.value
     });
   };
 
-  onSubmit = (event) => {
-    event.preventDefault();
-    this.onClearInput();
-  };
-
   onClearInput = () => {
-    this.setState({ label: '' });
-    this.props.onClickAdd(this.state.label);
+    this.setState({ inputValue: '' });
+    this.props.onClickAdd(this.state.inputValue);
   }
 
   render() {

@@ -20,7 +20,7 @@ class App extends React.Component {
     };
 
     createTodoItem(label) {
-      let newItem = {
+      return {
         label,
         isDone: false,
         isImportant: false,
@@ -28,7 +28,6 @@ class App extends React.Component {
         fontWeight: 400,
         id: this.idItem += 1
       };
-      return newItem;
     }
 
     onClickDelete = (id) => {
@@ -116,14 +115,6 @@ class App extends React.Component {
     };
 
     onClickImportant = (id) => {
-      // this.setState(({ items }) => {
-      //   const itemIndex = items.findIndex((el) => el.id === id);
-      //   if (!items[itemIndex].isDone) {
-      //     return {
-      //       items: this.toggleProperty( items, id, 'isImportant')
-      //     };
-      //   }
-      // });
       const newItemList = this.state.items.map(item => {
         const newItem = { ...item };
         const newFontWeight = item.fontWeight === 400 ? 600 : 400;

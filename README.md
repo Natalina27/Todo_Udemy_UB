@@ -93,7 +93,7 @@
 >> setState() принимает функцию 
 >> аргумент - текущий state
 ```js
-  this.setState((state) => {
+ this.setState((state) => {
     return{
         count: state.count + 1
         }
@@ -139,6 +139,13 @@
 >> Централизировать управление данными - хорошая практика
 >> Если данные нужно использовать в нескольких компонентах - их нужно хранить в родительском компоненте
 >> Чтобы поднять данные вверх по иерархии компонентовб используйте события
+
+> 19. setState()-editing_elements
+>> oldObj нельзя менять
+oldObj = oldArr[indx]
+>...но можно скопировать в новый обьект
+newAObj = {oldObj, props: newValue}
+newArray = [...oldArray.slice(0, indx), newObj, ...oldArr.slice(indx + 1)];
 
 
 

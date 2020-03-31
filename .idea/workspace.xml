@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,13 +130,6 @@
       <workItem from="1585514933247" duration="1309000" />
       <workItem from="1585555080368" duration="12657000" />
       <workItem from="1585644413422" duration="8949000" />
-    </task>
-    <task id="LOCAL-00052" summary="props">
-      <created>1585074810013</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1585074810013</updated>
     </task>
     <task id="LOCAL-00053" summary="props">
       <created>1585075340919</created>
@@ -476,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585663008688</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Очистка формы fixed , inputValue onUpperCase()">
+      <created>1585677380623</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1585677380623</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MUI styles readme" />
     <MESSAGE value="MUI styles" />
     <MESSAGE value="Improving structure of project" />
     <MESSAGE value="Class component" />
@@ -521,6 +518,7 @@
     <MESSAGE value="data editing: createNewItem, toggleProperty, doneCount, todoCount" />
     <MESSAGE value="Работа с формами onSubmit()" />
     <MESSAGE value="Очистка формы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Очистка формы" />
+    <MESSAGE value="Очистка формы fixed , inputValue onUpperCase()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Очистка формы fixed , inputValue onUpperCase()" />
   </component>
 </project>

@@ -60,6 +60,7 @@ class InputItem extends React.Component {
               variant="outlined"
               id="custom-css-outlined-input"
               onChange={this.onLabelChange}
+              value={this.state.inputValue}
 
           />
           <Button

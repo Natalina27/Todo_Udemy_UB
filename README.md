@@ -147,5 +147,10 @@ oldObj = oldArr[indx]
 newAObj = {oldObj, props: newValue}
 newArray = [...oldArray.slice(0, indx), newObj, ...oldArr.slice(indx + 1)];
 
+> 20. Работа с формами
+>> Используем onChange() чтобы получать текущее значение
+>> onSubmit() - событие отправки формы
+>> event.preventDefault() - чтобы страница не перезагружалась
+
 
 

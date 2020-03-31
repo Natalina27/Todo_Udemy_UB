@@ -1,10 +1,7 @@
 import React from 'react';
 import 'typeface-roboto';
 import TextField from '@material-ui/core/TextField';
-import {
-  withStyles,
-  makeStyles
-} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import styles from './InputItem.module.css';
 import Button from '@material-ui/core/Button';
 
@@ -30,36 +27,47 @@ const CssTextField = withStyles({
   }
 })(TextField);
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap'
-  },
-  margin: {
-    margin: theme.spacing(1)
-  }
-}));
 
-const InputItem = ({ onClickAdd }) => {
-  const classes = useStyles();
-  return (
-        <form className={styles.input}>
-            <CssTextField
-                fullWidth
-                className={classes.margin}
-                label="Add new task here"
-                variant="outlined"
-                id="custom-css-outlined-input"
-            />
-                <Button
-                    color="secondary"
-                    href="#"
-                    className={styles.add}
-                    onClick={() => onClickAdd('hello')}
+class InputItem extends React.Component {
+  state = {
+    label: ''
+  };
 
-                >ADD</Button>
+  onLabelChange = (event) => {
+    this.setState({
+      label: event.target.value
+    });
+  };
+
+  onSubmit = (event) => {
+    event.preventDefault();
+    this.props.onClickAdd(this.state.label);
+  };
+
+  render() {
+    return (
+        <form
+            className={styles.input}
+            onSubmit={this.onSubmit}
+        >
+          <CssTextField
+              fullWidth
+              label="Add new task here"
+              variant="outlined"
+              id="custom-css-outlined-input"
+              onChange={this.onLabelChange}
+          />
+          <Button
+              color="secondary"
+              href="#"
+              className={styles.add}
+               onClick={this.onSubmit}
+
+          >ADD</Button>
         </form>
-  );
-};
+    );
+  }
+}
+
 
 export default InputItem;

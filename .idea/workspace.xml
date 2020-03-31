@@ -4,7 +4,7 @@
     <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputItem/InputItem.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="18.Data_in_react_app" />
+        <entry key="$PROJECT_DIR$" value="19.setState()-editing_elements" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,14 +133,7 @@
       <workItem from="1585486465738" duration="13646000" />
       <workItem from="1585514933247" duration="1309000" />
       <workItem from="1585555080368" duration="12657000" />
-      <workItem from="1585644413422" duration="774000" />
-    </task>
-    <task id="LOCAL-00049" summary="JSX">
-      <created>1585066977235</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1585066977235</updated>
+      <workItem from="1585644413422" duration="6697000" />
     </task>
     <task id="LOCAL-00050" summary="JSX">
       <created>1585067000478</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585600480365</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="data editing: createNewItem, toggleProperty, doneCount, todoCount">
+      <created>1585646058678</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1585646058678</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,8 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project structure" />
-    <MESSAGE value="props" />
     <MESSAGE value="Arrays like props" />
     <MESSAGE value="key, rest parameter" />
     <MESSAGE value="MUI styles readme" />
@@ -523,6 +521,8 @@
     <MESSAGE value=" all data in one component App - refactoring" />
     <MESSAGE value=" all data (state, event handling functions)  in one component App - refactoring" />
     <MESSAGE value="data editing" />
-    <option name="LAST_COMMIT_MESSAGE" value="data editing" />
+    <MESSAGE value="data editing: toggleProperty, doneCount, todoCount" />
+    <MESSAGE value="data editing: createNewItem, toggleProperty, doneCount, todoCount" />
+    <option name="LAST_COMMIT_MESSAGE" value="data editing: createNewItem, toggleProperty, doneCount, todoCount" />
   </component>
 </project>

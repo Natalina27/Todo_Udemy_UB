@@ -131,13 +131,6 @@
       <workItem from="1585555080368" duration="12657000" />
       <workItem from="1585644413422" duration="8949000" />
     </task>
-    <task id="LOCAL-00053" summary="props">
-      <created>1585075340919</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1585075340919</updated>
-    </task>
     <task id="LOCAL-00054" summary="Arrays like props">
       <created>1585076270100</created>
       <option name="number" value="00054" />
@@ -474,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585677380623</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Очистка формы fixed , inputValue onUpperCase()">
+      <created>1585677388846</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1585677388846</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -152,5 +152,8 @@ newArray = [...oldArray.slice(0, indx), newObj, ...oldArr.slice(indx + 1)];
 >> onSubmit() - событие отправки формы
 >> event.preventDefault() - чтобы страница не перезагружалась
 
-
+> 21. Controlled component
+>> onChange() обновляет state, а state обновляет value элемента
+>> state - единстве5нный источник значений
+>> легко обновлять  value , можно обновлять не только в ответ на ввод пользователя
 

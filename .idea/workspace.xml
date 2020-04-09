@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="Очистка формы fixed , inputValue onUpperCase()">
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,14 +136,8 @@
       <workItem from="1585644413422" duration="8949000" />
       <workItem from="1586094080720" duration="236000" />
       <workItem from="1586260339134" duration="244000" />
-      <workItem from="1586369904270" duration="356000" />
-    </task>
-    <task id="LOCAL-00055" summary="Arrays like props">
-      <created>1585078155568</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1585078155568</updated>
+      <workItem from="1586369904270" duration="422000" />
+      <workItem from="1586420824660" duration="872000" />
     </task>
     <task id="LOCAL-00056" summary="key, rest parameter">
       <created>1585084201594</created>
@@ -483,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585683331154</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Очистка формы fixed , inputValue onUpperCase()">
+      <created>1586419862219</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1586419862220</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="22.SearchPanel branch">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="20.Forms" />
+        <entry key="$PROJECT_DIR$" value="21.Controlled_components" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.lint">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -94,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.lint" />
         <item itemvalue="npm.lint" />
       </list>
     </recent_temporary>
@@ -500,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MUI styles" />
     <MESSAGE value="Improving structure of project" />
     <MESSAGE value="Class component" />
     <MESSAGE value="Event handling - click on Checkbox (onClickDone arrow function)" />
@@ -525,6 +528,7 @@
     <MESSAGE value="Работа с формами onSubmit()" />
     <MESSAGE value="Очистка формы" />
     <MESSAGE value="Очистка формы fixed , inputValue onUpperCase()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Очистка формы fixed , inputValue onUpperCase()" />
+    <MESSAGE value="22.SearchPanel branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.SearchPanel branch" />
   </component>
 </project>

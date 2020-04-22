@@ -16,7 +16,8 @@ class App extends React.Component {
         this.createTodoItem('Drink 2 glasses of water'),
         this.createTodoItem('Have a breakfast'),
         this.createTodoItem('Drink coffee')
-      ]
+      ],
+      term: 'fe'
     };
 
     createTodoItem(label) {
@@ -75,7 +76,7 @@ class App extends React.Component {
         newItem,
         ...arr.slice(itemIndex + 1)
       ];
-    }
+    };
 
     onClickDone = (id) => {
       this.setState(({ items }) => {
@@ -131,15 +132,21 @@ class App extends React.Component {
       this.setState({ items: newItemList });
     };
 
+    search = (items, term) => {
+      if (!term.length) { return items; }
+      return items.filter((item) => item.label.indexOf(term) > -1);
+    };
+
     render() {
-      const { items } = this.state;
+      const { items, term } = this.state;
+      const visibleItems = this.search(items, term);
       const doneCount = items.filter((el) => el.isDone).length;
       const todoCount = items.length - doneCount;
       return (
             <Container maxWidth="sm" className={styles.container}>
                 < SearchItem/>
                 < ItemList
-                    items={items}
+                    items={visibleItems}
                     onClickDelete={this.onClickDelete}
                     onClickDone={this.onClickDone}
                     onClickImportant={this.onClickImportant}

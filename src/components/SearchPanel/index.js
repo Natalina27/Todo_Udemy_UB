@@ -1,2 +1,2 @@
-import SearchItem from './SearchItem';
-export default SearchItem;
+import SearchPanel from './SearchPanel';
+export default SearchPanel;

@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchItem from '../SearchPanel';
+import SearchPanel from '../SearchPanel';
 import ItemList from '../ItemList';
 import InputItem from '../InputItem';
 import Footer from '../Footer';
@@ -17,7 +17,7 @@ class App extends React.Component {
         this.createTodoItem('Have a breakfast'),
         this.createTodoItem('Drink coffee')
       ],
-      term: 'fe'
+      term: ''
     };
 
     createTodoItem(label) {
@@ -30,6 +30,7 @@ class App extends React.Component {
         id: this.idItem += 1
       };
     }
+
 
     onClickDelete = (id) => {
       this.setState(({ items }) => {
@@ -132,9 +133,17 @@ class App extends React.Component {
       this.setState({ items: newItemList });
     };
 
+    onSearchChange = (term) => {
+      this.setState({ term });
+    };
+
     search = (items, term) => {
       if (!term.length) { return items; }
-      return items.filter((item) => item.label.indexOf(term) > -1);
+      return items.filter((item) => {
+        return item.label
+          .toLowerCase()
+          .indexOf(term.toLowerCase()) > -1;
+      });
     };
 
     render() {
@@ -144,7 +153,7 @@ class App extends React.Component {
       const todoCount = items.length - doneCount;
       return (
             <Container maxWidth="sm" className={styles.container}>
-                < SearchItem/>
+                < SearchPanel onSearchChange={this.onSearchChange}/>
                 < ItemList
                     items={visibleItems}
                     onClickDelete={this.onClickDelete}

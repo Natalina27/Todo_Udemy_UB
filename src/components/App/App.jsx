@@ -17,7 +17,8 @@ class App extends React.Component {
         this.createTodoItem('Have a breakfast'),
         this.createTodoItem('Drink coffee')
       ],
-      term: ''
+      term: '',
+      filter: '' //active, all, done
     };
 
     createTodoItem(label) {

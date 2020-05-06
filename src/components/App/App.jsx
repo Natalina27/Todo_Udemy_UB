@@ -18,11 +18,11 @@ class App extends React.Component {
         this.createTodoItem('Drink coffee')
       ],
       term: '',
-      filter: '' //active, all, done
+      filter: 'all' // active, all, done
     };
 
     createTodoItem(label) {
-      return {
+      let obj = {
         label,
         isDone: false,
         isImportant: false,
@@ -30,8 +30,8 @@ class App extends React.Component {
         fontWeight: 400,
         id: this.idItem += 1
       };
+      return obj;
     }
-
 
     onClickDelete = (id) => {
       this.setState(({ items }) => {
@@ -147,9 +147,22 @@ class App extends React.Component {
       });
     };
 
+    filter = (items, filter) => {
+      switch (filter) {
+        case 'all':
+          return items;
+        case 'active':
+          return items.filter((item) => !item.isDone);
+        case 'done':
+          return items.filter((item) => item.isDone);
+        default:
+          return items;
+      }
+    };
+
     render() {
-      const { items, term } = this.state;
-      const visibleItems = this.search(items, term);
+      const { items, term, filter } = this.state;
+      const visibleItems = this.filter(this.search(items, term), filter);
       const doneCount = items.filter((el) => el.isDone).length;
       const todoCount = items.length - doneCount;
       return (

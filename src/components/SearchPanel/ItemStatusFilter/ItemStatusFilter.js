@@ -1,6 +1,7 @@
 import React from 'react';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
+import styles from './ItemStatusFilter.module.css';
 
 const ItemStatusFilter = () => {
   return (
@@ -8,9 +9,9 @@ const ItemStatusFilter = () => {
             variant="text"
             color="default"
             component="div">
-            <Button href="#">ALL</Button>
-            <Button href="#">ACTIVE</Button>
-            <Button href="#">DONE</Button>
+            <Button className={styles.all} href="#">ALL</Button>
+            <Button className={styles.active} href="#">ACTIVE</Button>
+            <Button className={styles.done} href="#">DONE</Button>
         </ButtonGroup>
   );
 };

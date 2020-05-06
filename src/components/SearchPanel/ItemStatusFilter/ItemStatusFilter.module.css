@@ -1,0 +1,16 @@
+.all span{
+    color: red;
+}
+.all span:hover{
+   color: hotpink;
+    text-shadow: 1px 1px rosybrown;
+}
+.active span:hover{
+    color: darkred;
+    text-shadow: 1px 1px ;
+}
+.done span:hover{
+    color: red;
+    text-shadow: 1px 1px rosybrown;
+}
+

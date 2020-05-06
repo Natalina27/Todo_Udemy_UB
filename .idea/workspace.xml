@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="" />
+    <list default="true" id="0a39979b-4cc6-4497-a7a8-ec422685c484" name="Default Changelist" comment="23.Filters added new function - filter">
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/ItemStatusFilter/ItemStatusFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/ItemStatusFilter/ItemStatusFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/ItemStatusFilter/ItemStatusFilter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/ItemStatusFilter/ItemStatusFilter.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/SearchPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/SearchPanel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchPanel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchPanel/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,14 +148,8 @@
       <workItem from="1586260339134" duration="244000" />
       <workItem from="1586369904270" duration="422000" />
       <workItem from="1586420824660" duration="872000" />
-      <workItem from="1587721803400" duration="244000" />
-    </task>
-    <task id="LOCAL-00060" summary="MUI styles">
-      <created>1585145616631</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1585145616632</updated>
+      <workItem from="1587721803400" duration="257000" />
+      <workItem from="1588797328027" duration="4613000" />
     </task>
     <task id="LOCAL-00061" summary="MUI styles">
       <created>1585148295783</created>
@@ -482,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587722001755</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="23.Filters added new element in state in App - filter">
+      <created>1587722052157</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1587722052157</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="setState()" />
     <MESSAGE value="eslint added" />
     <MESSAGE value="cleaned code" />
     <MESSAGE value="added onClick handles onClickDone and onClickImportant" />
@@ -527,6 +538,7 @@
     <MESSAGE value="22.SearchPanel onSearchChange function added" />
     <MESSAGE value="22. Readme file updated" />
     <MESSAGE value="23.Filters added new element in state in App - filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="23.Filters added new element in state in App - filter" />
+    <MESSAGE value="23.Filters added new function - filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.Filters added new function - filter" />
   </component>
 </project>

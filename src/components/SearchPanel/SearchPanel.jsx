@@ -6,36 +6,21 @@ import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
 import ItemStatusFilter from './ItemStatusFilter';
 
-class SearchPanel extends React.Component {
-    state = {
-      term: ''
-    };
+const SearchPanel = () => {
+  return (
+        <div className={styles.search}>
+        <Paper component="form" className={styles.root} >
+            <IconButton type="submit" aria-label="search" href='#'>
+                <SearchIcon />
+            </IconButton>
+            <InputBase
+                placeholder=" Search "
+                inputProps={{ 'aria-label': 'search ' }}/>
+        </Paper>
+        <ItemStatusFilter/>
+        </div>
 
-    onSearchChange = (e) => {
-      const term = e.target.value;
-      this.setState({ term });
-      this.props.onSearchChange(term);
-    };
-
-    render() {
-      return (
-            <div className={styles.search}>
-                <Paper component="form" className={styles.root}>
-                    <IconButton type="submit" aria-label="search" href='#'>
-                        <SearchIcon/>
-                    </IconButton>
-                    <InputBase
-                        placeholder=" Search "
-                        inputProps={{ 'aria-label': 'search ' }}
-                        value={this.state.term}
-                        onChange={this.onSearchChange}
-                    />
-                </Paper>
-                <ItemStatusFilter/>
-            </div>
-      );
-    }
-}
-
+  );
+};
 
 export default SearchPanel;
